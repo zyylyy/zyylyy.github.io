@@ -1,5 +1,14 @@
 {
-  "build": "build.js",
-  "common": "common.js",
-  "vendor.js": "vendor.js"
+  "build": [
+    "build.ae650729b9c20ed59326.js",
+    "build.ae650729b9c20ed59326.js.map"
+  ],
+  "common": [
+    "common.ae650729b9c20ed59326.js",
+    "common.ae650729b9c20ed59326.js.map"
+  ],
+  "vendor.[hash].js": [
+    "vendor.ae650729b9c20ed59326.js",
+    "vendor.ae650729b9c20ed59326.js.map"
+  ]
 }
