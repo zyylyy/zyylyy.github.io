@@ -1,6 +1,6 @@
 <template>
     <div>
-        abc
+        等待更新...
     </div>
 </template>
 

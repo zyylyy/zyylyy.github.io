@@ -76,6 +76,7 @@ sync(store,router)
 // 	}
 // })
 
+
 new Vue({
 	store,
 	router,

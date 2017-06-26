@@ -12,9 +12,8 @@
     <meta name="x5-orientation" content="portrait">
     <!-- UC强制竖屏 -->
     <meta name="screen-orientation" content="portrait">
-    <title>微销宝</title>
+    <title>个人Web</title>
     <link href="/pangu-favicon.ico" rel="shortcut icon">
-    <link rel="stylesheet" href="@ViewBag.CustomCss">
   </head>
   <body user="salestool">
     <div id="app"></div>
