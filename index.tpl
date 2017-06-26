@@ -12,10 +12,11 @@
     <meta name="x5-orientation" content="portrait">
     <!-- UC强制竖屏 -->
     <meta name="screen-orientation" content="portrait">
-    <title>@ViewBag.Title</title>
+    <title>微销宝</title>
     <link href="/pangu-favicon.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="@ViewBag.CustomCss">
   </head>
   <body user="salestool">
     <div id="app"></div>
-  <script type="text/javascript" src="/App_SalesTollModules/vendor.js"></script><script type="text/javascript" src="/App_SalesTollModules/common.js"></script><script type="text/javascript" src="/App_SalesTollModules/build.js"></script></body>
+  </body>
 </html>
