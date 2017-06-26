@@ -10,7 +10,6 @@ import {sync} from 'vuex-router-sync'
 import cookie from 'js-cookie'
 import infiniteScroll  from 'vue-infinite-scroll'
 import '!style!css!less!./assets/css/normalize.css' // normalize重置浏览器样式
-import '!style!css!less!./assets/font/iconfont.css'   // 引入字体样式
 import '!style!css!less!./assets/css/theme/theme.less' // 加载主题样式
 import '!style!css!less!./assets/css/common.less' // 引入公共样式
 
