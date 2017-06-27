@@ -1,959 +1,340 @@
 
 <!DOCTYPE html>
-<!--[if IE 6]>
-<html id="ie6" class="ancient-ie old-ie no-js bit-html" dir="ltr" lang="zh-CN">
-<![endif]-->
-<!--[if IE 7]>
-<html id="ie7" class="ancient-ie old-ie no-js bit-html" dir="ltr" lang="zh-CN">
-<![endif]-->
-<!--[if IE 8]>
-<html id="ie8" class="old-ie no-js bit-html" dir="ltr" lang="zh-CN">
-<![endif]-->
-<!--[if IE 9]>
-<html id="ie9" class="old-ie9 no-js bit-html" dir="ltr" lang="zh-CN">
-<![endif]-->
-<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
-<html class="no-js bit-html" dir="ltr" lang="zh-CN">
-<!--<![endif]-->
+<html lang="zh-cmn-Hans" class="no-js">
 <head>
-	<!-- for 360 -->
-	<meta name="renderer" content="webkit"> 
-	<meta name="applicable-device" content="pc,mobile"> <!-- for baidu -->
-	<meta http-equiv="Cache-Control" content="no-transform" /> <!-- for baidu -->
-    <meta name="MobileOptimized" content="width"/><!-- for baidu -->
-    <meta name="HandheldFriendly" content="true"/><!-- for baidu -->
-    
-	<!-- start of customer header -->
-		<!-- end of customer header -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-			<title>摄影展 | 网站模板</title>
-	<link rel="profile" href="http://gmpg.org/xfn/11" />
-	<link rel="pingback" href="http://54d4a4629fb6b.t73.qifeiye.com/xmlrpc.php" />
-		<!--[if lt IE 9]>
-	<script src="http://54d4a4629fb6b.t73.qifeiye.com/FeiEditor/bitSite/js/html5shiv.min.js"></script>
-	<![endif]-->
-	<link rel="stylesheet" href="/FeiEditor/bitSite/css/respond.css?ver=2.51" type="text/css" media="screen" />
-	<!--[if lt IE 9]>
-	<script src="http://54d4a4629fb6b.t73.qifeiye.com/FeiEditor/bitSite/js/respond.min.js"></script>
-	<![endif]-->
-		<style type="text/css" id="static-stylesheet"></style>
-	<link rel="stylesheet" href="http://54d4a4629fb6b.t73.qifeiye.com/qfy-content/cache/scripts/0e7f225a8ea8c7d7a510c242eec4b2bc.css" type="text/css" media="all" />
-<link rel='stylesheet' id='dt-main-css'  href='http://54d4a4629fb6b.t73.qifeiye.com/qfy-content/themes/qfy-01/css/main.css?ver=2.51' type='text/css' media='all' />
-<link rel='stylesheet' id='dt-custom-less-css'  href='http://54d4a4629fb6b.t73.qifeiye.com/qfy-content/uploads/wp-less/qfy-01/css/custom-39c9363947.css?ver=2.51' type='text/css' media='all' />
-<link rel='stylesheet' id='dt-bit-custom-less-css'  href='http://54d4a4629fb6b.t73.qifeiye.com/qfy-content/uploads/wp-less/qfy-01/css/bit-custom-f9accbf851.css?ver=2.51' type='text/css' media='all' />
-<link rel='stylesheet' id='qfy_dynamic_css-css'  href='http://54d4a4629fb6b.t73.qifeiye.com/qfy-content/uploads/qfy-custom-style.css?m=1493110856?ver=2.51' type='text/css' media='all' />
-<style type='text/css'>
-.text{
-    margin:20% 1% 20px 1%;
+<title>翁天信 · Dandy Weng</title>
+<meta charset="utf-8" /> 
+<meta name="description" content="翁天信（Dandy Weng）的个人网站主页。我是一个21岁的homeschooler，这个世界就是我的学校，我有自由的身心，一直在前行。" />
+<meta name="keywords" content="翁天信, Dandy Weng" />
+<meta name="author" content="Dandy Weng" />
+<meta name="format-detection" content="telephone=no" />
+<meta property="og:title" content="翁天信 · Dandy Weng" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.dandyweng.com/" />
+<meta property="og:image" content="http://v6.res.dandyweng.com/images/portrait.jpg" />
+<meta property="og:description" content="我是一个 21 岁的 homeschooler，这个世界就是我的学校，我有自由的身心，一直在前行。" />
+<meta property="og:locale" content="zh-CN" />
+<meta property="og:locale:alternate" content="en-US" />
+<meta property="og:site_name" content="翁天信的个人主页" />
+<meta name="weibo:webpage:create_at" content="2015-10-05 06:00:00" />
+<meta name="weibo:webpage:update_at" content="2015-10-05 06:00:00" />
+<meta name="apple-mobile-web-app-title" content="翁天信" />
+<meta name="apple-itunes-app" content="app-id=1028319180">
+<link rel="apple-touch-icon-precomposed" href="http://v6.res.dandyweng.com/images/portrait.jpg" />
+<link rel="shortcut icon" href="http://v6.res.dandyweng.com/images/favicon.ico" />
+<link rel="icon" href="http://v6.res.dandyweng.com/images/favicon.ico" />
+<link rel="stylesheet" href="http://v6.res.dandyweng.com/style.min.css" type="text/css" />
+<script src="http://cdn.dandyweng.com/js/jquery-1.9.1.min.js"></script>
+<script src="http://v6.res.dandyweng.com/skel.min.js"></script>
+<!--[if lt IE 9]>
+<script src="http://cdn.dandyweng.com/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<style>
+
+/* = 中文版细节微调
+----------------------------------------------- */
+
+body, input, textarea, h1, h2, h3, h4 {
+    font-family: 'Source Sans Light', 'Apple LiSung Light', 'STHeiti Light', 'SimSun', sans-serif;
+    /* Windows 下的非衬线中文字体黑体以及微软雅黑在大字号下都非常难看，无奈选用宋体↑ */
 }
-
-#main .paddingleftright10 img{
-padding-top:10px !important;
-padding-left:10px !important;
-padding-right:10px !important;
+html.ios > body,
+html.ios > input,
+html.ios > textarea,
+html.ios > h1,
+html.ios > h2,
+html.ios > h3,
+html.ios > h4 {
+    font-family: sans-serif;
 }
-
+body, input, textarea {
+    line-height: 1.5;
+    font-size: 20px;
+}
+html.ios > body,
+html.ios > input,
+html.ios > textarea {
+    line-height: 1.65;
+}
+h3 {
+    font-weight: bold;
+}
+.content h2 {
+    margin-bottom: 0.25em;
+}
+.content > .container p {
+    letter-spacing: -0.5px;
+}
+body > header .title p.subline {
+    font-size: 1.5em;
+    margin-top: 0.125em;
+}
+section#travel #maps h3 {
+    letter-spacing: -1px;
+    font-size: 1.2em;
+}
+section#photography a i {
+    vertical-align: text-top;
+}
+section#more .description p {
+    line-height: 1.45;
+}
+section#contact .sns-icons {
+    font-size: 2.5em;
+}
+footer a.icp {
+    font-size: 0.75em;
+    color: #bbb;
+}
+@media (max-width: 727px) {
+    body, input, textarea {
+        font-size: 18px;
+    }
+}
+@media (max-width: 535px) {
+    body, input, textarea {
+        font-size: 14px;
+        line-height: 1.35;
+    }
+}
 </style>
-<link rel="stylesheet" href="http://54d4a4629fb6b.t73.qifeiye.com/qfy-content/cache/scripts/ba784f1e737ca2a27c2305723945f8fe.css" type="text/css" media="all" />
-<script type='text/javascript'>
-/* <![CDATA[ */
-/* iphorm-plugin */
-var iphormL10n = {"error_submitting_form":"\u5728\u63d0\u4ea4\u8868\u5355\u65f6\u6709\u9519\u8bef","swfupload_flash_url":"http:\/\/54d4a4629fb6b.t73.qifeiye.com\/qfy-includes\/js\/swfupload\/swfupload.swf","swfupload_upload_url":"http:\/\/54d4a4629fb6b.t73.qifeiye.com\/?iphorm_swfupload=1","swfupload_too_many":"\u961f\u5217\u4e2d\u7684\u6587\u4ef6\u592a\u591a\u4e86","swfupload_file_too_big":"\u6587\u4ef6\u592a\u5927\u4e86","swfupload_file_empty":"\u4e0d\u80fd\u4e0a\u4f20\u7a7a\u6587\u4ef6","swfupload_file_type_not_allowed":"\u8be5\u6587\u4ef6\u7684\u7c7b\u578b\u662f\u4e0d\u5141\u8bb8\u4e0a\u4f20\u7684","swfupload_unknown_queue_error":"\u672a\u77e5\u961f\u5217\u9519\u8bef\uff0c\u8bf7\u7a0d\u5019\u518d\u8bd5","swfupload_upload_error":"\u4e0a\u4f20\u9519\u8bef","swfupload_upload_failed":"\u4e0a\u4f20\u5931\u8d25","swfupload_server_io":"\u670d\u52a1\u5668IO\u9519\u8bef","swfupload_security_error":"\u5b89\u5168\u9519\u8bef","swfupload_limit_exceeded":"\u4e0a\u4f20\u8d85\u8fc7\u9650\u5236","swfupload_validation_failed":"\u9a8c\u8bc1\u5931\u8d25","swfupload_upload_stopped":"\u4e0a\u4f20\u88ab\u7ec8\u6b62","swfupload_unknown_upload_error":"\u6587\u4ef6\u4e0a\u4f20\u88ab\u610f\u5916\u7ec8\u6b62","plugin_url":"http:\/\/54d4a4629fb6b.t73.qifeiye.com\/qfy-content\/plugins\/qfy_form","preview_no_submit":"\u5728\u9884\u89c8\u6a21\u5f0f\u4e0b\u4e0d\u80fd\u63d0\u4ea4\u8868\u5355"};
-/* dt-plugins */
-var dtLocal = {"passText":"\u67e5\u770b\u8fd9\u4e2a\u52a0\u5bc6\u8d44\u8baf\uff0c\u8bf7\u5728\u4e0b\u9762\u8f93\u5165\u5bc6\u7801\uff1a","moreButtonAllLoadedText":"\u5168\u90e8\u5df2\u52a0\u8f7d","postID":"9761","ajaxurl":"http:\/\/54d4a4629fb6b.t73.qifeiye.com\/admin\/admin-ajax.php","contactNonce":"93c7fb93fc","ajaxNonce":"d434a5fee3","pageData":{"type":"page","template":"page","layout":null},"themeSettings":{"smoothScroll":"on"}};
-/* thickbox */
-var thickboxL10n = {"next":"\u4e0b\u4e00\u5f20 >","prev":"< \u4e0a\u4e00\u5f20","image":"\u56fe\u7247","of":"\/","close":"\u5173\u95ed","noiframes":"\u8fd9\u4e2a\u529f\u80fd\u9700\u8981iframe\u7684\u652f\u6301\u3002\u60a8\u53ef\u80fd\u7981\u6b62\u4e86iframe\u7684\u663e\u793a\uff0c\u6216\u60a8\u7684\u6d4f\u89c8\u5668\u4e0d\u652f\u6301\u6b64\u529f\u80fd\u3002","loadingAnimation":"\/\/fast.qifeiye.com\/FeiEditor\/bitSite\/images\/preloader.gif"};
-
-/* ]]> */
-</script>
-<script type="text/javascript" src="http://54d4a4629fb6b.t73.qifeiye.com/qfy-content/cache/scripts/4d71a4954f36c4c8512c39cb2df16de4.js"></script>
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://54d4a4629fb6b.t73.qifeiye.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://54d4a4629fb6b.t73.qifeiye.com/qfy-includes/wlwmanifest.xml" /> 
-
-<link rel='canonical' href='http://54d4a4629fb6b.t73.qifeiye.com/' />
-<link rel='shortlink' href='http://54d4a4629fb6b.t73.qifeiye.com/?p=9761' />
-<style class='style_0'>.bitRightSider .widget-title,.bitLeftSider .widget-title{padding:0 0 0 10px;height:28px;line-height:28px;background-color:#024886;margin:0px;font-family:;font-size:px;font-weight:normal;font-style:normal;text-decoration:none;color:#fff;border-top:0;border-left:0;border-right:0;border-bottom:0;background-image: url(//fast.qifeiye.com/qfy-content/plugins//bit-plugin/assets/frame/header_bg/1/bg.png);background-repeat: repeat;-webkit-border-top-left-radius: 0;-webkit-border-top-right-radius: 0;-moz-border-radius-topleft: 0;-moz-border-radius-topright: 0;border-top-left-radius: 0;border-top-right-radius: 0;} .bitRightSider .bitWidgetFrame,.bitLeftSider .bitWidgetFrame{border-top:0;border-bottom:1px solid #bababa;border-left:1px solid #bababa;border-right:1px solid #bababa;padding:4px 10px 4px 10px;-webkit-border-bottom-left-radius: 0;-webkit-border-bottom-right-radius: 0;-moz-border-radius-bottomleft: 0;-moz-border-radius-bottomright: 0;border-bottom-left-radius: 0;border-bottom-right-radius: 0;}.bitRightSider .site_tooler,.bitLeftSider .site_tooler{-webkit-box-shadow:none;box-shadow:none;}.bitRightLeftSiderWidget.site_tooler .bitWidgetFrame,.bitRightLeftSiderWidget.site_tooler .bitWidgetFrame{background-color:transparent;background-image:none;-webkit-border-bottom-left-radius: 0px;border-bottom-left-radius: 0px;-webkit-border-bottom-right-radius: 0px;border-bottom-right-radius: 0px;}</style><style class='style_0'>.footer .widget-title{padding:0 0 0 10px;height:28px;line-height:28px;background-color:#024886;margin:0px;font-family:;font-size:px;font-weight:normal;font-style:normal;text-decoration:none;color:#fff;border-top:0;border-left:0;border-right:0;border-bottom:0;background-image:none;-webkit-border-top-left-radius: 4px;-webkit-border-top-right-radius: 4px;-moz-border-radius-topleft: 4px;-moz-border-radius-topright: 4px;border-top-left-radius: 4px;border-top-right-radius: 4px;} .footer .widget-title{border-top:0;border-left:0;border-right:0;} .footer  .bitWidgetFrame{border-bottom:0;border-top:0;border-left:0;border-right:0;padding:4px 10px 4px 10px;}.footer .site_tooler{-webkit-box-shadow:none;box-shadow:none;}.footer .site_tooler .bitWidgetFrame{background-color:transparent;background-image:none;-webkit-border-bottom-left-radius: 4px;border-bottom-left-radius: 4px;-webkit-border-bottom-right-radius: 4px;border-bottom-right-radius: 4px;}</style><meta name="robots" content="index, follow" />
-<meta name="description" content="网站模板" />
-		<style type="text/css" >
-</style>
-		<script type="text/javascript">
-			dtGlobals.logoEnabled = 1;dtGlobals.curr_id = 9761;dtGlobals.logoURL = '';dtGlobals.logoW = '0';dtGlobals.logoH = '0';dtGlobals.qfyname = '起飞页';dtGlobals.id = '54d4a4629fb6b';dtGlobals.language = '';smartMenu = 0;document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';
-			dtGlobals.gallery_bgcolor = 'rgba(51,51,51,1)';dtGlobals.gallery_showthumbs = '0';dtGlobals.gallery_style = '';dtGlobals.gallery_autoplay = '0';dtGlobals.gallery_playspeed = '3';dtGlobals.gallery_imagesize = '100';dtGlobals.gallery_stopbutton = '';dtGlobals.gallery_thumbsposition = '';dtGlobals.gallery_tcolor = '#fff';dtGlobals.gallery_tsize = '16';dtGlobals.gallery_dcolor = '#fff';dtGlobals.gallery_dsize = '14';dtGlobals.gallery_tfamily = '';dtGlobals.gallery_dfamily = '';dtGlobals.gallery_blankclose = '0';dtGlobals.fm_showstyle = '';dtGlobals.fm_showspeed = '';dtGlobals.cdn_url = 'http://static.qifeiye.com';dtGlobals.qfymodel = "";
-			            			var socail_back_url = '';
-					
-		</script>
-
-			
-
 </head>
+<body id="body" class="init header-fadeout">
 
-
-<body  class="home page page-id-9761 page-template-default image-blur btn-flat content-fullwidth wpb-js-composer js-comp-ver-4.0.1 vc_responsive"  data-pid="9761" data-pkey="c02dfa211f20abbc3310a5db2d87d952">
-
-<div   id="page"  class=' header_bg_mobilehide breackall wide ' >
-
-
-
-	<!-- left, center, classical, classic-centered -->
-	<!-- !Header -->
-	<header id="header" class="logo-classic-centered headerPM menuPositionHolder" role="banner"><!-- class="overlap"; class="logo-left", class="logo-center", class="logo-classic" -->
-		<div class="wf-wrap">
-			<div class="wf-table">
-
-				
-
-<div id="branding" class="wf-td bit-logo-bar" style="" >
-	<a  class="bitem logo small" style="" href="http://54d4a4629fb6b.t73.qifeiye.com/"><span class="logospan"><img class="preload-me" src="http://static.qifeiye.com/caches/569b046fc16663a994ea33d5a2a60b54/aHR0cDovLzU0ZDRhNDYyOWZiNmIudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNS8wMi9iYzM4ZjFjOTM4Zjk4Yzc2MTFjMTMzNzY4YmE3Yzc5YS5wbmc_p_p100_p_3D.png" width="393" height="96"   alt="摄影展"  /></span></a>
-	
-	<!-- <div id="site-title" class="assistive-text"></div>
-	<div id="site-description" class="assistive-text"></div> -->
-</div>
-			</div><!-- .wf-table -->
-		</div><!-- .wf-wrap -->
-	
-								<div class="wf-mobile-visible wf-td assistive-info    " role="complementary"  >
-					<div  class="top-bar-right right bit_widget_more" bitdatamarker="bitHeader-2" bitdataaction="site_fix_container" bitdatacolor="white">
-					 					</div>
-				</div>
-		
-		<div class="navigation-holder">
-			<div>
-
-						<!-- !- Navigation -->
-		<nav style="0" id="navigation" class="wf-wrap"   bitDataAction="site_menu_container" bitDataLocation="primary" >
-			<ul id="main-nav" data-st="0" data-sp="0"  data-fh="" data-mw="" data-lh="" class="mainmenu fancy-rollovers wf-mobile-hidden bit-menu-default underline-hover position-text-right"      data-bit-menu=underline-hover data-bit-float-menu=underline-hover ><li class=" menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-9761 current_page_item bit-menu-post-id-9761 menu-item-9901 act first"><a href="http://54d4a4629fb6b.t73.qifeiye.com/"><span>Home</span></a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home bit-menu-post-id-8415 menu-item-8415"><a href="http://54d4a4629fb6b.t73.qifeiye.com/#bit_xyiy2"><span>About Us</span></a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home bit-menu-post-id-8416 menu-item-8416"><a href="http://54d4a4629fb6b.t73.qifeiye.com/#bit_3t4dd"><span>Our Philosophy</span></a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home bit-menu-post-id-8417 menu-item-8417"><a href="http://54d4a4629fb6b.t73.qifeiye.com/#bit_ho66s"><span>Our work</span></a></li>
-</ul>
-						
-			<a href="#show-menu" data-padding='' data-top='8' data-right='8' rel="nofollow" id="mobile-menu" style="display:none;" class="glyphicon glyphicon-icon-align-justify displaynone left" >
-				<span class="menu-open  phone-text">首页</span>
-				<span class="menu-close">关闭</span>
-				<span class="menu-back">返回上一级</span>
-				<span class="wf-phone-visible">&nbsp;</span>
-			</a>
-
-					</nav>
-		<div style="display:none;" id="main-nav-slide">
-									<div class="main-nav-slide-inner" data-class="" >
-				<div  class="floatmenu-bar-right bit_widget_more" bitdatamarker="bitHeader-3" bitdataaction="site_fix_container" bitdatacolor="white">
-					 				</div>
-			</div>
-		</div>
-		
-	
-			</div>
-		</div><!-- .navigation-holder -->
-
-		
-	</header><!-- #masthead -->
-
- <section class="bitBanner" id="bitBanner" bitdatamarker="bitBanner" bitdataaction="site_fix_container" >
-	<div id="rev-slider-widget-3" style="" class="bitImageControlDiv bitBanner widget_revslider site_tooler"><!-- START REVOLUTION SLIDER 4.1.4 fullwidth mode -->
-			<style type='text/css' id="bit_revsider_style">
-												@media screen and (max-width: 768px) {#rev_slider_4_1_wrapper .tp-bullets{display:none !important;}#rev_slider_4_1_wrapper .tparrows{display:none !important;}}							</style>
-		<script type='text/javascript' src='//fast.qifeiye.com/qfy-content/plugins/revslider/rs-plugin/js/jquery.themepunch.plugins.min.js?rev=4.1.4'></script><script type='text/javascript' src='//fast.qifeiye.com/qfy-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?rev=4.1.4'></script>
-<div id="rev_slider_4_1_wrapper" bitDataAction="site_slider_container"  bitDataLocation="4" biDataNonce="0d2db2e3f6" class="rev_slider_wrapper   fullwidthbanner-container" style="margin:0px auto;background-color:#e9e9e9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:650px;">
-	<div id="rev_slider_4_1" class="rev_slider fullwidthabanner" style="display:none;max-height:650px;height:650;">
-<ul data-height="650" data-mobileheight="300">	<!-- SLIDE  -->
-	<li class="bitSliderLi" data-slideId="14" data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="600" >
-		<!-- MAIN IMAGE -->
-		<img src="http://static.qifeiye.com/caches/569b046fc16663a994ea33d5a2a60b54/aHR0cDovLzU0ZDRhNDYyOWZiNmIudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3BsdWdpbnMvcmV2c2xpZGVyL2ltYWdlcy9kdW1teS5wbmc_p_p100_p_3D.png"  alt="27f237e6b7f96587b6202ff3607ad88a" data-lazyload="http://54d4a4629fb6b.t73.qifeiye.com/qfy-content/uploads/2015/06/27f237e6b7f96587b6202ff3607ad88a.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-		<!-- LAYERS -->
-	</li>
-	<!-- SLIDE  -->
-	<li class="bitSliderLi" data-slideId="16" data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="600" >
-		<!-- MAIN IMAGE -->
-		<img src="http://static.qifeiye.com/caches/569b046fc16663a994ea33d5a2a60b54/aHR0cDovLzU0ZDRhNDYyOWZiNmIudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3BsdWdpbnMvcmV2c2xpZGVyL2ltYWdlcy9kdW1teS5wbmc_p_p100_p_3D.png"  alt="c6bdf6f65f3845da9085e9ae5790b494" data-lazyload="http://54d4a4629fb6b.t73.qifeiye.com/qfy-content/uploads/2015/06/c6bdf6f65f3845da9085e9ae5790b494.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-		<!-- LAYERS -->
-	</li>
-	<!-- SLIDE  -->
-	<li class="bitSliderLi" data-slideId="17" data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="600" >
-		<!-- MAIN IMAGE -->
-		<img src="http://static.qifeiye.com/caches/569b046fc16663a994ea33d5a2a60b54/aHR0cDovLzU0ZDRhNDYyOWZiNmIudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3BsdWdpbnMvcmV2c2xpZGVyL2ltYWdlcy9kdW1teS5wbmc_p_p100_p_3D.png"  alt="6593d7b12fd418cdb35bbf438de72f66" data-lazyload="http://54d4a4629fb6b.t73.qifeiye.com/qfy-content/uploads/2015/06/6593d7b12fd418cdb35bbf438de72f66.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-		<!-- LAYERS -->
-	</li>
-</ul>
-	</div>
-</div>			
-			<script type="text/javascript" id="bit_revsider">
-			var revapi4_param ={
-							hideTimerBar:"on",
-							simplifyAll:"on",
-							dottedOverlay:"none",
-							delay:9000,
-							startwidth:1263,
-							startheight:650,
-							hideThumbs:200,
-							
-							thumbWidth:100,
-							thumbHeight:50,
-							thumbAmount:3,
-							
-							navigationType:"bullet",
-							navigationArrows:"solo",
-							navigationStyle:"round",
-														touchenabled:"on",
-														onHoverStop:"on",
-							
-							navigationHAlign:"center",
-							navigationVAlign:"bottom",
-							navigationHOffset:0,
-							navigationVOffset:20,
-
-							soloArrowLeftHalign:"left",
-							soloArrowLeftValign:"center",
-							soloArrowLeftHOffset:20,
-							soloArrowLeftVOffset:0,
-
-							soloArrowRightHalign:"right",
-							soloArrowRightValign:"center",
-							soloArrowRightHOffset:20,
-							soloArrowRightVOffset:0,
-
-							navigation_arrows_style:'default',
-									
-							shadow:0,
-							fullWidth:"on",
-							fullScreen:"off",
-
-							stopLoop:"off",
-							stopAfterLoops:-1,
-							stopAtSlide:-1,
-
-							
-							shuffle:"off",
-							
-							autoHeight:"on",							
-							forceFullWidth:"off",							
-														
-														
-							hideThumbsOnMobile:"off",
-							hideBulletsOnMobile:"off",
-							hideArrowsOnMobile:"off",
-							hideThumbsUnderResolution:0,
-							
-							hideSliderAtLimit:0,
-							hideCaptionAtLimit:0,
-							hideAllCaptionAtLilmit:0,
-							startWithSlide:0,
-							videoJsPath:"http://54d4a4629fb6b.t73.qifeiye.com/qfy-content/plugins/revslider/rs-plugin/videojs/",
-							fullScreenOffsetContainer: ""	
-						}	
-			</script>
-			<script type="text/javascript" >
-
-				var tpj=jQuery;				
-				tpj.noConflict();				
-				var revapi4;
-				
-				function run_revApi(){
-					if(tpj('#rev_slider_4_1').revolution == undefined)
-						revslider_showDoubleJqueryError('#rev_slider_4_1');
-					else{
-		
-					   revapi4 = tpj('#rev_slider_4_1').show().revolution(revapi4_param);
-					}
-				}
-				tpj(document).ready(function() {
-					if("off"=="on" && top!=self){
-						setTimeout("run_revApi()",300);
-					}else{
-						run_revApi();
-					}
-				
-				});	//ready
-				
-			</script>
-			
-			<!-- END REVOLUTION SLIDER --></div></section>
-<div id="main" class="bit_main_content">
-
-
-		<div class="main-gradient"></div>
-
-		<div class="wf-wrap">
-			<div class="wf-container-main">
-
-				
-
-			
-
-			<div id="content" class="content" role="main">
-
-								
-<div class="main-outer-wrapper ">
-        <div class="bit_row">
-
-                <div class="twelve columns no-sidebar-content ">
-                
-                    <div class="bit_row">
-                    
-                            <div class="content-wrapper twelve columns ">
-                              <section  data-fixheight="" class="qfy-row-1-5952000abda88901993 section     no  section-text-no-shadow section-inner-no-shadow section-normal"  id="bit_xyiy2"  style='margin-bottom:0;border-radius:0px;color:#000000;' >
-    	    <div class="section-background-overlay background-overlay grid-overlay-0 " style="background-color: #ffffff;"></div>
-
-    <div class="container">
-        <div class="row wpb_row">
-            <div  data-animaleinbegin="bottom-in-view" data-animalename="qfyfadeInUp" data-delay=""  class=" qfy-column-1-5952000abe231575341 qfy-column-inner  vc_span12  text-default small-screen-default fullrow"  data-dw="1/1" data-fixheight="" ><div style=";position:relative;;" class="column_inner " ><div class=" background-overlay grid-overlay-" style="background-color:transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" ><style>@media only screen and (max-width: 760px) {#vc_header_5952000abecad592 .header_title{font-size:24px !important;}}</style><style>@media only screen and (max-width: 760px) {#vc_header_5952000abecad592 .header_subtitle{font-size:20px !important;}}</style>
-	<div id="vc_header_5952000abecad592"  m-padding="0px 0px 0px 0px"  p-padding="0 0 0 0" css_animation_delay="0" qfyuuid="qfy_header_oeots" data-anitime='0.7'  class="qfy-element minheigh1px wpb_text_column wpb_content_element " style="position: relative;;;background-repeat: no-repeat;;margin-top:20px;margin-bottom:20px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;">
-		<div class="wpb_wrapper">
-			<H1 class="qfy_title center mobilecenter"><div class="qfy_title_inner" style="display:inline-block;position:relative;max-width:100%;"><div class="header_title" style="font-family:verdana;font-size:40px;font-weight:bold;font-style:normal;color:#000;">About Us</div></div><style></style><div class="button_wrapper" style="display:none;"><div class="button " style="display:inline-block;max-width:100%;text-align:center; font-size:14px; color:#333; padding:5px;">+ 查看更多</div></div><span  style="clear:both;"></span></H1>
-		</div> 
-	</div> 
-	<div  m-padding="0px 0px 0px 0px"  p-padding="0px 130px 0px 130px" css_animation_delay="0" qfyuuid="0"  class="qfy-element qfy-text qfy-text-17206 wpb_text_column wpb_content_element  mobile_fontsize13" style="position: relative;;;line-height:1.5em;;background-repeat: no-repeat;;margin-top:0;margin-bottom:50px;padding-right:130px;padding-left:130px;">
-		<div class="wpb_wrapper">
-			<div style="position: relative;">
-<div>
-<div style="text-align: center;"><span style="font-size:14px;"><span style="color: rgb(102, 102, 102);">&nbsp;</span></span></div>
-
-<div class="block" data-move-y="-40px" style="transition: all 1s ease 0s, opacity 1.5s ease 0s; opacity: 1;">
-<div class="block" data-move-y="-40px" style="transition: all 1s ease 0s, opacity 1.5s ease 0s; opacity: 1;">
-<div style="text-align: center;"><span style="font-size:14px;"><span style="color: rgb(102, 102, 102);">応损捠捡换攳，攴朰朲朳枛朸桸桹桺奿妀。夲夳夵壱売壳圢圤圥圦圧！圩圪囡団囤囥咍咎，咐咑厺厼厽桻桼忝忞帄帇帉帊峢；峣峤屴屵屶屷宓宔宖忟忡，忢忣忥忦忨忩忪忬忭忮忯忰。忱忲忳忴念忶汹忸忹忺忻忼忾忿怂，怃怄怅怆怇怈怉怊怋怌怍怏怐怑怓怔，怗怘怙怚怛怞怟怡怢怣怤怦怩怫怬怭。怮怯怰，怲怳怴怵怶怷怸怹怺怼悙怿。恀恁恂恃恄恅，恒恇恈恉恊恌恍恎恏。恑！恒！恓！恔恖恗恘恙恚恛恜恝恞恠恡恦，恧恫恬恮恰恱恲恴恷恹恺，恻恽恾恿悀悁悂悃悆悇悈悊。</span><span style="font-family: comic sans ms,cursive;"></span></span></div>
-
-<div style="text-align: center;">&nbsp;</div>
-
-<div style="text-align: center;">&nbsp;</div>
-
-<div style="text-align: center;"><img src="http://static.qifeiye.com/caches/569b046fc16663a994ea33d5a2a60b54/aHR0cDovLzU0ZDRhNDYyOWZiNmIudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNC8wNi9DLnBuZz9hdHRhY2htZW50X2lkPTgzNDY_p_p100_p_3D.png"></div>
-</div>
-</div>
-</div>
-</div>
-
-		</div> 
-	</div> </div></div></div><style>@media only screen and (min-width: 992px){.qfy-column-1-5952000abe231575341 > .column_inner {padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}.wpb_row .vc_span_class.qfy-column-1-5952000abe231575341 {};}@media only screen and (max-width: 992px){.qfy-column-1-5952000abe231575341 > .column_inner{margin:0 auto 0 !important;padding-left:0;padding-right:0;padding-top:;padding-bottom:8px;}.display_entire .wpb_row .vc_span_class.qfy-column-1-5952000abe231575341 {}.qfy-column-1-5952000abe231575341 > .column_inner> .background-overlay,.qfy-column-1-5952000abe231575341 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style>        </div>
-    </div>
-	<style>
-	@media only screen and (min-width: 992px){
-		section.section.qfy-row-1-5952000abda88901993{padding-left:0;padding-right:0;padding-top:20px;padding-bottom:0;margin-top:20px;}}
-		
-	   	
-	   @media only screen and (max-width: 992px){
-		.bit-html section.section.qfy-row-1-5952000abda88901993{padding-left:15px;padding-right:15px;padding-top:24px;padding-bottom:0;margin-top:0;}}
-	</style>
-</section><section  data-fixheight="" class="qfy-row-2-5952000abf5c2697774 section     smfull  section-text-no-shadow section-inner-no-shadow section-normal"  id="bit_86dk7"  style='margin-bottom:0;border-radius:0px;color:#000000;' >
-    	    <div class="section-background-overlay background-overlay grid-overlay-0 " style="background-color: #F9F9F9;"></div>
-
-    <div class="container">
-        <div class="row wpb_row">
-            <div  data-animaleinbegin="bottom-in-view" data-animalename="qfyfadeInUp" data-delay=""  class=" qfy-column-2-5952000abf791997085 qfy-column-inner  vc_span12  text-default small-screen-default fullrow"  data-dw="1/1" data-fixheight="" ><div style=";position:relative;;" class="column_inner " ><div class=" background-overlay grid-overlay-" style="background-color:transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" ><div id=""  data-loading="" data-loading-w=""  data-open="" data-post="post" data-cate="41"   m-padding="0px 0px 0px 0px"  p-padding="0 0 0 0" css_animation_delay="0" qfyuuid="qfy_posts_grid_6mehl"   class="qfy-element  UUID-POSTS-5952000ac73f1940841 wpb_teaser_grid wpb_content_element  wpb_grid columns_count_3 columns_count_3 wpb_teaser_grid_post  shadowhover" style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;">
-<style>.UUID-POSTS-5952000ac73f1940841 li:hover .post-title > i.glyphicon{color:#cccccc !important;}.UUID-POSTS-5952000ac73f1940841 li:hover .subtitle{color:#cccccc !important;}.UUID-POSTS-5952000ac73f1940841 li .post_excerpt{width:100% !important;text-align:center}.UUID-POSTS-5952000ac73f1940841 li:hover .vc_read_more{}@media only screen and (max-width: 760px) {.UUID-POSTS-5952000ac73f1940841 .vc_span_mobile{float:left !important;max-width: 99.8% !important;}.UUID-POSTS-5952000ac73f1940841 .post_blog  .vc_span_mobile .blog-media{width:auto !important;}.thumbnail_text-5952000ac73a56 .head{font-size: 16px !important;}.thumbnail_text-5952000ac73a56 .content{font-size: 16px !important;}}.UUID-POSTS-5952000ac73f1940841 .qfy_item_post>div {transition: all 0.3s ease-out 0s;}.UUID-POSTS-5952000ac73f1940841 .qfy_item_post:hover >div{box-shadow:0 12px 30px rgba(0, 0, 0, 0.15);margin-top:-20px;}.UUID-POSTS-5952000ac73f1940841 .qfy_item_post .price_warp .amount,.UUID-POSTS-5952000ac73f1940841 .qfy_item_post .price_warp del{color:#cccccc;font-size:12px;}.UUID-POSTS-5952000ac73f1940841 .qfy_item_post .price_warp ins .amount{color:#cccccc;font-size:12px;}.UUID-POSTS-5952000ac73f1940841 .qfy_item_post .price_warp {padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;}.UUID-POSTS-5952000ac73f1940841 .qfy_item_post:hover .price_warp .amount,.UUID-POSTS-5952000ac73f1940841 .qfy_item_post:hover .price_warp del{color:#cccccc !important;}.UUID-POSTS-5952000ac73f1940841 .qfy_item_post:hover .price_warp ins .amount{color:#cccccc !important;}.UUID-POSTS-5952000ac73f1940841 li:hover *{transition: all .6s ease;}.UUID-POSTS-5952000ac73f1940841 li *{transition: all .6s ease;}</style>	    <div class="wpb_wrapper">
-                <div class="teaser_grid_container noanimale" style=';clear:both;' data-type="post" data-cate="41" data-pcate="">
-                        <ul style="min-height:60px;" class="wpb_thumbnails wpb_thumbnails-fluid vc_clearfix post_grid" data-layout-mode="fitRows">
-                                                                                <li data-postid="9774" data-animaleinbegin="bottom-in-view"  data-animalename="qfyfadeInUp" data-delay="0" class=" isotope-item qfy_item_post vc_span4 vc_span_mobile vc_span_mobile12 grid-cat-41" style='max-width:33.27%;margin-bottom:20px;padding-bottom:20px;' >
-									<div class='itembody' style="">
-	                    	                        	
-
-	
-				<div class="post-thumb blog-media wf-td" style='overflow:hidden;display:block;width: 100%;text-align: center;padding-bottom:10px;vertical-align:top;' >
-		<a href="http://54d4a4629fb6b.t73.qifeiye.com/?p=9774" class="bitImageAhover   link_image" title="岁月"><img data-t-id='9358' style='' class=" ag_image" src="http://static.qifeiye.com/caches/569b046fc16663a994ea33d5a2a60b54/aHR0cDovLzU0ZDRhNDYyOWZiNmIudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNS8wNi9kNWQ0Y2M3YjA5ZDE4NDM1MTdhY2M5MzYxZjhmNjY1ZS00NTB4NDUwLmpwZw_p_p100_p_3D_p_p100_p_3D.jpg" alt="B4" description=""    data-title="B4" title="" src-img ="" /><i></i></a>	</div>
-							                    	                        	
-
-		
-		<div class="post-title"  style='color:#373A41;line-height:14px; vertical-align: top; text-align:center; '>
-
-			
-	
-	<a data-title="true" style="color:#373A41;font-size:14px;line-height:20px" href="http://54d4a4629fb6b.t73.qifeiye.com/?p=9774" class="bitImageAhover   link_title" title="岁月">岁月</a>
-
-	</div>
-	
-
-							                    	                        	
-
-							                    	                        	
-
-	
-	<div  class="entry-content post_excerpt	" style="color:#727272;font-size:12px;">
-		<p>哪知岁月总是催人老，等到知时已迟了</p><br />
-
-	</div>
-
-							                    	                        	
-
-							                    	                        	
-
-							                    					</div>
-				                </li> <div class="wf-mobile-visible" style="clear:both"></div>                                                <li data-postid="9772" data-animaleinbegin="bottom-in-view"  data-animalename="qfyfadeInUp" data-delay="0" class=" isotope-item qfy_item_post vc_span4 vc_span_mobile vc_span_mobile12 grid-cat-41" style='max-width:33.27%;margin-bottom:20px;padding-bottom:20px;' >
-									<div class='itembody' style="">
-	                    	                        	
-
-	
-				<div class="post-thumb blog-media wf-td" style='overflow:hidden;display:block;width: 100%;text-align: center;padding-bottom:10px;vertical-align:top;' >
-		<a href="http://54d4a4629fb6b.t73.qifeiye.com/?p=9772" class="bitImageAhover   link_image" title="风景"><img data-t-id='9355' style='' class=" ag_image" src="http://static.qifeiye.com/caches/569b046fc16663a994ea33d5a2a60b54/aHR0cDovLzU0ZDRhNDYyOWZiNmIudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNS8wNi9jOTUxMjU2NWVmNjE5NGNhNjY0ZGM0MWVjMGRlN2E1My00NTB4NDUwLmpwZw_p_p100_p_3D_p_p100_p_3D.jpg" alt="B1" description=""    data-title="B1" title="" src-img ="" /><i></i></a>	</div>
-							                    	                        	
-
-		
-		<div class="post-title"  style='color:#373A41;line-height:14px; vertical-align: top; text-align:center; '>
-
-			
-	
-	<a data-title="true" style="color:#373A41;font-size:14px;line-height:20px" href="http://54d4a4629fb6b.t73.qifeiye.com/?p=9772" class="bitImageAhover   link_title" title="风景">风景</a>
-
-	</div>
-	
-
-							                    	                        	
-
-							                    	                        	
-
-	
-	<div  class="entry-content post_excerpt	" style="color:#727272;font-size:12px;">
-		<p>再美的风景，也需要欣赏他的人</p><br />
-
-	</div>
-
-							                    	                        	
-
-							                    	                        	
-
-							                    					</div>
-				                </li> <div class="wf-mobile-visible" style="clear:both"></div>                                                <li data-postid="9770" data-animaleinbegin="bottom-in-view"  data-animalename="qfyfadeInUp" data-delay="0" class=" isotope-item qfy_item_post vc_span4 vc_span_mobile vc_span_mobile12 grid-cat-41" style='max-width:33.27%;margin-bottom:20px;padding-bottom:20px;' >
-									<div class='itembody' style="">
-	                    	                        	
-
-	
-				<div class="post-thumb blog-media wf-td" style='overflow:hidden;display:block;width: 100%;text-align: center;padding-bottom:10px;vertical-align:top;' >
-		<a href="http://54d4a4629fb6b.t73.qifeiye.com/?p=9770" class="bitImageAhover   link_image" title="旅游日记"><img data-t-id='9356' style='' class=" ag_image" src="http://static.qifeiye.com/caches/569b046fc16663a994ea33d5a2a60b54/aHR0cDovLzU0ZDRhNDYyOWZiNmIudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNS8wNi9iYmQ5N2IwMGM1Mzk4MDFlMzIzMTdhYjU1MDg2N2VjNC00NTB4NDUwLmpwZw_p_p100_p_3D_p_p100_p_3D.jpg" alt="B2" description=""    data-title="B2" title="" src-img ="" /><i></i></a>	</div>
-							                    	                        	
-
-		
-		<div class="post-title"  style='color:#373A41;line-height:14px; vertical-align: top; text-align:center; '>
-
-			
-	
-	<a data-title="true" style="color:#373A41;font-size:14px;line-height:20px" href="http://54d4a4629fb6b.t73.qifeiye.com/?p=9770" class="bitImageAhover   link_title" title="旅游日记">旅游日记</a>
-
-	</div>
-	
-
-							                    	                        	
-
-							                    	                        	
-
-	
-	<div  class="entry-content post_excerpt	" style="color:#727272;font-size:12px;">
-		<p>旅行重要的不是终点，而是过程</p><br />
-
-	</div>
-
-							                    	                        	
-
-							                    	                        	
-
-							                    					</div>
-				                </li> <div class="wf-mobile-hidden" style="clear:both"></div><div class="wf-mobile-visible" style="clear:both"></div>                                                <li data-postid="9768" data-animaleinbegin="bottom-in-view"  data-animalename="qfyfadeInUp" data-delay="0" class=" isotope-item qfy_item_post vc_span4 vc_span_mobile vc_span_mobile12 grid-cat-41" style='max-width:33.27%;margin-bottom:20px;padding-bottom:20px;' >
-									<div class='itembody' style="">
-	                    	                        	
-
-	
-				<div class="post-thumb blog-media wf-td" style='overflow:hidden;display:block;width: 100%;text-align: center;padding-bottom:10px;vertical-align:top;' >
-		<a href="http://54d4a4629fb6b.t73.qifeiye.com/?p=9768" class="bitImageAhover   link_image" title="相爱的人"><img data-t-id='9360' style='' class=" ag_image" src="http://static.qifeiye.com/caches/569b046fc16663a994ea33d5a2a60b54/aHR0cDovLzU0ZDRhNDYyOWZiNmIudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNS8wNi81Mjg5NTM3MjdlZjNhNGUxYzQ0MWM2MDc4NTM0YzM5Yi00NTB4NDUwLmpwZw_p_p100_p_3D_p_p100_p_3D.jpg" alt="b6" description=""    data-title="b6" title="" src-img ="" /><i></i></a>	</div>
-							                    	                        	
-
-		
-		<div class="post-title"  style='color:#373A41;line-height:14px; vertical-align: top; text-align:center; '>
-
-			
-	
-	<a data-title="true" style="color:#373A41;font-size:14px;line-height:20px" href="http://54d4a4629fb6b.t73.qifeiye.com/?p=9768" class="bitImageAhover   link_title" title="相爱的人">相爱的人</a>
-
-	</div>
-	
-
-							                    	                        	
-
-							                    	                        	
-
-	
-	<div  class="entry-content post_excerpt	" style="color:#727272;font-size:12px;">
-		<p>犹如黑暗中的烛光，照亮了整个人类的历史</p><br />
-
-	</div>
-
-							                    	                        	
-
-							                    	                        	
-
-							                    					</div>
-				                </li> <div class="wf-mobile-visible" style="clear:both"></div>                                                <li data-postid="9766" data-animaleinbegin="bottom-in-view"  data-animalename="qfyfadeInUp" data-delay="0" class=" isotope-item qfy_item_post vc_span4 vc_span_mobile vc_span_mobile12 grid-cat-41" style='max-width:33.27%;margin-bottom:20px;padding-bottom:20px;' >
-									<div class='itembody' style="">
-	                    	                        	
-
-	
-				<div class="post-thumb blog-media wf-td" style='overflow:hidden;display:block;width: 100%;text-align: center;padding-bottom:10px;vertical-align:top;' >
-		<a href="http://54d4a4629fb6b.t73.qifeiye.com/?p=9766" class="bitImageAhover   link_image" title="建筑"><img data-t-id='9349' style='' class=" ag_image" src="http://static.qifeiye.com/caches/569b046fc16663a994ea33d5a2a60b54/aHR0cDovLzU0ZDRhNDYyOWZiNmIudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNS8wNi81ZGI1OGU3YjIxYjkwNjRjYTVhZjQ5ZWZlN2I3YThiMi00NTB4NDUwLmpwZw_p_p100_p_3D_p_p100_p_3D.jpg" alt="42d9b310022557a70bc86b6dec0d6a07" description=""    data-title="42d9b310022557a70bc86b6dec0d6a07" title="" src-img ="" /><i></i></a>	</div>
-							                    	                        	
-
-		
-		<div class="post-title"  style='color:#373A41;line-height:14px; vertical-align: top; text-align:center; '>
-
-			
-	
-	<a data-title="true" style="color:#373A41;font-size:14px;line-height:20px" href="http://54d4a4629fb6b.t73.qifeiye.com/?p=9766" class="bitImageAhover   link_title" title="建筑">建筑</a>
-
-	</div>
-	
-
-							                    	                        	
-
-							                    	                        	
-
-	
-	<div  class="entry-content post_excerpt	" style="color:#727272;font-size:12px;">
-		<p>不同的是外形，相同的是内在</p><br />
-
-	</div>
-
-							                    	                        	
-
-							                    	                        	
-
-							                    					</div>
-				                </li> <div class="wf-mobile-visible" style="clear:both"></div>                                                <li data-postid="9764" data-animaleinbegin="bottom-in-view"  data-animalename="qfyfadeInUp" data-delay="0" class=" isotope-item qfy_item_post vc_span4 vc_span_mobile vc_span_mobile12 grid-cat-41" style='max-width:33.27%;margin-bottom:20px;padding-bottom:20px;' >
-									<div class='itembody' style="">
-	                    	                        	
-
-	
-				<div class="post-thumb blog-media wf-td" style='overflow:hidden;display:block;width: 100%;text-align: center;padding-bottom:10px;vertical-align:top;' >
-		<a href="http://54d4a4629fb6b.t73.qifeiye.com/?p=9764" class="bitImageAhover   link_image" title="神奇的自然"><img data-t-id='9823' style='' class=" ag_image" src="http://static.qifeiye.com/caches/569b046fc16663a994ea33d5a2a60b54/aHR0cDovLzU0ZDRhNDYyOWZiNmIudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNy8wNi8yMDZiMjc4MTZiNzQ2YzQ3MjNhNGQzYzI3ZjE2MDg5YS00NTB4NDUwLmpwZw_p_p100_p_3D_p_p100_p_3D.jpg" alt="67" description=""    data-title="67" title="" src-img ="" /><i></i></a>	</div>
-							                    	                        	
-
-		
-		<div class="post-title"  style='color:#373A41;line-height:14px; vertical-align: top; text-align:center; '>
-
-			
-	
-	<a data-title="true" style="color:#373A41;font-size:14px;line-height:20px" href="http://54d4a4629fb6b.t73.qifeiye.com/?p=9764" class="bitImageAhover   link_title" title="神奇的自然">神奇的自然</a>
-
-	</div>
-	
-
-							                    	                        	
-
-							                    	                        	
-
-	
-	<div  class="entry-content post_excerpt	" style="color:#727272;font-size:12px;">
-		<p>有一种神奇叫做孤独的孕育</p><br />
-
-	</div>
-
-							                    	                        	
-
-							                    	                        	
-
-							                    					</div>
-				                </li> <div class="wf-mobile-hidden" style="clear:both"></div><div class="wf-mobile-visible" style="clear:both"></div>                                				
-            </ul>
-        </div>
-    </div>     <div class="clear"></div>
+    <!-- Header -->
     
+    <header class="header">
+        <nav class="top clearfix">
+            <a href="javascript:;" data-action="switch-fullscreen-mode"><span><i class="icon-expand"></i> 全屏浏览</span></a>
+            <span class="right"><a href="javascript:;" data-action="switch-language"><span><i class="icon-earth"></i> View in English</span></a></span>
+        </nav>
+    
+        <div class="header-background">
+            <img id="back-sticker" src="http://v6.res.dandyweng.com/images/my-back.png" alt="我的背影" />
+        </div>
         
-
-</div> 
-</div></div></div><style>@media only screen and (min-width: 992px){.qfy-column-2-5952000abf791997085 > .column_inner {padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}.wpb_row .vc_span_class.qfy-column-2-5952000abf791997085 {};}@media only screen and (max-width: 992px){.qfy-column-2-5952000abf791997085 > .column_inner{margin:0 auto 0 !important;padding-left:0;padding-right:0;padding-top:;padding-bottom:;}.display_entire .wpb_row .vc_span_class.qfy-column-2-5952000abf791997085 {}.qfy-column-2-5952000abf791997085 > .column_inner> .background-overlay,.qfy-column-2-5952000abf791997085 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style>        </div>
-    </div>
-	<style>
-	@media only screen and (min-width: 992px){
-		section.section.qfy-row-2-5952000abf5c2697774{padding-left:0;padding-right:0;padding-top:60px;padding-bottom:0;margin-top:0;}section.section.qfy-row-2-5952000abf5c2697774 > .container{max-width:1280px;margin:0 auto;}}
-		
-	   	
-	   @media only screen and (max-width: 992px){
-		.bit-html section.section.qfy-row-2-5952000abf5c2697774{padding-left:15px;padding-right:15px;padding-top:60px;padding-bottom:0;margin-top:0;}}
-	</style>
-</section><section  data-fixheight="" class="qfy-row-3-5952000ac9232359663 section     no  section-text-no-shadow section-inner-no-shadow section-normal"  id="bit_3t4dd"  style='margin-bottom:0;border-radius:0px;color:#000000;' >
-    	    <div class="section-background-overlay background-overlay grid-overlay-0 " style="background-color: rgba(255,255,255,0.5);"></div>
-
-    <div class="container">
-        <div class="row wpb_row">
-            <div  data-animaleinbegin="bottom-in-view" data-animalename="qfyfadeInUp" data-delay=""  class=" qfy-column-3-5952000ac9461727905 qfy-column-inner  vc_span12  text-default small-screen-default fullrow"  data-dw="1/1" data-fixheight="" ><div style=";position:relative;;" class="column_inner " ><div class=" background-overlay grid-overlay-" style="background-color:transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" ><style>@media only screen and (max-width: 760px) {#vc_header_5952000ac98c0882 .header_title{font-size:24px !important;}}</style><style>@media only screen and (max-width: 760px) {#vc_header_5952000ac98c0882 .header_subtitle{font-size:20px !important;}}</style>
-	<div id="vc_header_5952000ac98c0882"  m-padding="0px 0px 0px 0px"  p-padding="0 0 0 0" css_animation_delay="0" qfyuuid="qfy_header_qaefg" data-anitime='0.7'  class="qfy-element minheigh1px wpb_text_column wpb_content_element " style="position: relative;;;background-repeat: no-repeat;;margin-top:20px;margin-bottom:20px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;">
-		<div class="wpb_wrapper">
-			<H1 class="qfy_title center mobilecenter"><div class="qfy_title_inner" style="display:inline-block;position:relative;max-width:100%;"><div class="header_title" style="font-family:verdana;font-size:40px;font-weight:bold;font-style:normal;color:#000;">Our Philosophy</div></div><style></style><div class="button_wrapper" style="display:none;"><div class="button " style="display:inline-block;max-width:100%;text-align:center; font-size:14px; color:#333; padding:5px;">+ 查看更多</div></div><span  style="clear:both;"></span></H1>
-		</div> 
-	</div> </div></div></div><style>@media only screen and (min-width: 992px){.qfy-column-3-5952000ac9461727905 > .column_inner {padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}.wpb_row .vc_span_class.qfy-column-3-5952000ac9461727905 {};}@media only screen and (max-width: 992px){.qfy-column-3-5952000ac9461727905 > .column_inner{margin:0 auto 0 !important;padding-left:0;padding-right:0;padding-top:;padding-bottom:;}.display_entire .wpb_row .vc_span_class.qfy-column-3-5952000ac9461727905 {}.qfy-column-3-5952000ac9461727905 > .column_inner> .background-overlay,.qfy-column-3-5952000ac9461727905 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style><div  data-animaleinbegin="bottom-in-view" data-animalename="qfyfadeInUp" data-delay=""  class=" qfy-column-4-5952000ac9e4b109562 qfy-column-inner vc_span_class vc_span6  text-default small-screen-default"  data-dw="1/2" data-fixheight="" ><div style=";position:relative;;" class="column_inner " ><div class=" background-overlay grid-overlay-" style="background-color:transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" >
-	<div  m-padding="0px 0px 0px 0px"  p-padding="0px 10px 0px 0" css_animation_delay="0" qfyuuid="0"  class="qfy-element qfy-text qfy-text-67107 wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_bottom-to-top" style="position: relative;;;line-height:1.5em;;background-repeat: no-repeat;;margin-top:40px;margin-bottom:0;padding-right:10px;padding-left:0;">
-		<div class="wpb_wrapper">
-			<div style="position: relative;">
-<div>
-<div><span style="color:#333333;"><span style="font-size: 14px;">&nbsp;</span><span style="font-size: 14px;">&nbsp;&nbsp;&nbsp;&nbsp; 応损捠捡换攳，攴朰朲朳枛朸桸桹桺奿妀。夲夳夵壱売壳圢圤圥圦圧！圩圪囡団囤囥咍咎，咐咑厺厼厽桻桼忝忞帄帇帉帊峢；峣峤屴屵屶屷宓宔宖忟忡，忢忣忥忦忨忩忪忬忭忮忯忰。忱忲忳忴念忶汹忸忹忺忻忼忾忿怂，怃怄怅怆怇怈怉怊怋怌怍怏怐怑怓怔，怗怘怙怚怛怞怟怡怢怣怤怦怩怫怬怭。怮怯怰，怲怳怴怵怶怷怸怹怺怼悙怿。恀恁恂恃恄恅，恒恇恈恉恊恌恍恎恏。恑！恒！恓！恔恖恗恘恙恚恛恜恝恞恠恡恦，恧恫恬恮恰恱恲恴恷恹恺，恻恽恾恿悀悁悂悃悆悇悈悊。<span style="font-family: comic sans ms,cursive;"></span></span></span></div>
-</div>
-</div>
-
-		</div> 
-	</div> </div></div></div><style>@media only screen and (min-width: 992px){.qfy-column-4-5952000ac9e4b109562 > .column_inner {padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}.wpb_row .vc_span_class.qfy-column-4-5952000ac9e4b109562 {};}@media only screen and (max-width: 992px){.qfy-column-4-5952000ac9e4b109562 > .column_inner{margin:0 auto 0 !important;padding-left:0;padding-right:0;padding-top:;padding-bottom:;}.display_entire .wpb_row .vc_span_class.qfy-column-4-5952000ac9e4b109562 {}.qfy-column-4-5952000ac9e4b109562 > .column_inner> .background-overlay,.qfy-column-4-5952000ac9e4b109562 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style><div  data-animaleinbegin="bottom-in-view" data-animalename="qfyfadeInUp" data-delay=""  class=" qfy-column-5-5952000aca365533884 qfy-column-inner vc_span_class vc_span6  text-default small-screen-default"  data-dw="1/2" data-fixheight="" ><div style=";position:relative;;" class="column_inner " ><div class=" background-overlay grid-overlay-" style="background-color:transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" >
-	<div  m-padding="0px 0px 0px 0px"  p-padding="0px 0 0px 10px" css_animation_delay="0" qfyuuid="0"  class="qfy-element qfy-text qfy-text-80255 wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_bottom-to-top" style="position: relative;;;line-height:1.5em;;background-repeat: no-repeat;;margin-top:40px;margin-bottom:0;padding-right:0;padding-left:10px;">
-		<div class="wpb_wrapper">
-			<div style="position: relative;">
-<div>
-<div><span style="color:#333333;"><span style="font-size: 14px;">&nbsp;</span><span style="font-size: 14px;">&nbsp;&nbsp;&nbsp;&nbsp; 応损捠捡换攳，攴朰朲朳枛朸桸桹桺奿妀。夲夳夵壱売壳圢圤圥圦圧！圩圪囡団囤囥咍咎，咐咑厺厼厽桻桼忝忞帄帇帉帊峢；峣峤屴屵屶屷宓宔宖忟忡，忢忣忥忦忨忩忪忬忭忮忯忰。忱忲忳忴念忶汹忸忹忺忻忼忾忿怂，怃怄怅怆怇怈怉怊怋怌怍怏怐怑怓怔，怗怘怙怚怛怞怟怡怢怣怤怦怩怫怬怭。怮怯怰，怲怳怴怵怶怷怸怹怺怼悙怿。恀恁恂恃恄恅，恒恇恈恉恊恌恍恎恏。恑！恒！恓！恔恖恗恘恙恚恛恜恝恞恠恡恦，恧恫恬恮恰恱恲恴恷恹恺，恻恽恾恿悀悁悂悃悆悇悈悊。<span style="font-family: comic sans ms,cursive;"></span></span></span></div>
-</div>
-</div>
-
-		</div> 
-	</div> </div></div></div><style>@media only screen and (min-width: 992px){.qfy-column-5-5952000aca365533884 > .column_inner {padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}.wpb_row .vc_span_class.qfy-column-5-5952000aca365533884 {};}@media only screen and (max-width: 992px){.qfy-column-5-5952000aca365533884 > .column_inner{margin:0 auto 0 !important;padding-left:0;padding-right:0;padding-top:;padding-bottom:;}.display_entire .wpb_row .vc_span_class.qfy-column-5-5952000aca365533884 {}.qfy-column-5-5952000aca365533884 > .column_inner> .background-overlay,.qfy-column-5-5952000aca365533884 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style><div class="wf-mobile-hidden" style="clear:both;"></div><div  data-animaleinbegin="bottom-in-view" data-animalename="qfyfadeInUp" data-delay=""  class=" qfy-column-6-5952000aca801155467 qfy-column-inner  vc_span12  text-default small-screen-default fullrow"  data-dw="1/1" data-fixheight="" ><div style=";position:relative;;" class="column_inner " ><div class=" background-overlay grid-overlay-" style="background-color:transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" >
-	<div  m-padding="0px 0px 0px 0px"  p-padding="0px 150px 0px 150px" css_animation_delay="0" qfyuuid="0"  class="qfy-element qfy-text qfy-text-28813 wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_bottom-to-top" style="position: relative;;;line-height:2em;;background-repeat: no-repeat;;margin-top:40px;margin-bottom:40px;padding-right:150px;padding-left:150px;">
-		<div class="wpb_wrapper">
-			<div style="text-align: center;"><span style="color:#333333;"><span style="font-size: 22px;"><strong><span style="font-family: 宋体;">“</span></strong><span style="font-family: 宋体;"><span style="font-family:微软雅黑;">艺术可遇不可求&#8211;它不会因为你是平民而对你视若无睹，也不会因为你是王公而对你青眼有加。 天时未到，即使是最睿智的人也不能使艺术品诞生。</span></span><strong><span style="font-family: 宋体;">”</span></strong></span></span></div>
-
-<div style="text-align: center;">&nbsp;</div>
-
-		</div> 
-	</div> </div></div></div><style>@media only screen and (min-width: 992px){.qfy-column-6-5952000aca801155467 > .column_inner {padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}.wpb_row .vc_span_class.qfy-column-6-5952000aca801155467 {};}@media only screen and (max-width: 992px){.qfy-column-6-5952000aca801155467 > .column_inner{margin:0 auto 0 !important;padding-left:0;padding-right:0;padding-top:;padding-bottom:;}.display_entire .wpb_row .vc_span_class.qfy-column-6-5952000aca801155467 {}.qfy-column-6-5952000aca801155467 > .column_inner> .background-overlay,.qfy-column-6-5952000aca801155467 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style><div class="wf-mobile-hidden" style="clear:both;"></div>        </div>
-    </div>
-	<style>
-	@media only screen and (min-width: 992px){
-		section.section.qfy-row-3-5952000ac9232359663{padding-left:130px;padding-right:130px;padding-top:20px;padding-bottom:0;margin-top:20px;}}
-		
-	   	
-	   @media only screen and (max-width: 992px){
-		.bit-html section.section.qfy-row-3-5952000ac9232359663{padding-left:15px;padding-right:15px;padding-top:20px;padding-bottom:0;margin-top:0;}}
-	</style>
-</section><section  data-fixheight="" class="qfy-row-4-5952000acadae979596 section    full   section-text-no-shadow section-inner-no-shadow section-normal"  id="bit_ho66s"  style='margin-bottom:0;border-radius:0px;color:#000000;' >
-    	    <div class="section-background-overlay background-overlay grid-overlay-0 " style="background-color: #f9f9f9;"></div>
-
-    <div class="container">
-        <div class="row wpb_row">
-            <div  data-animaleinbegin="bottom-in-view" data-animalename="qfyfadeInUp" data-delay=""  class=" qfy-column-7-5952000acaf73777553 qfy-column-inner vc_span_class vc_span6  text-default small-screen-default"  data-dw="1/2" data-fixheight="" ><div style=";position:relative;;" class="column_inner " ><div class=" background-overlay grid-overlay-" style="background-color:transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" >
-	<div id="" style="width:100%;padding:0px;margin:0px;height:100%;clear:both;position:relative;background-repeat: no-repeat;"  m-padding="0px 0px 0px 0px"  p-padding="0px 0px 0px 0px" css_animation_delay="0" qfyuuid="0"     m-padding="0px 0px 0px 0px"  p-padding="0px 0px 0px 0px" css_animation_delay="0" qfyuuid="0"  class="qfy-element bitImageControlDiv"><a class="bitImageAhover  " >
-	<div class="bitImageParentDiv wpb_single_image wpb_content_element vc_align_left">
-		<div class="wpb_wrapper"><span></span><img width="1100" height="1100" src="http://static.qifeiye.com/caches/569b046fc16663a994ea33d5a2a60b54/aHR0cDovLzU0ZDRhNDYyOWZiNmIudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNS8wNi84ODYwMzcwYWY3NmMwMWRlNTMzN2Q0NjI2YzI2NzhmNC5qcGc_p_p100_p_3D.jpg" class="front_image  attachment-full" alt="Q1" title="" description="" data-title="Q1" src-img="" style='' /></div> 
-	</div> 
-	</div> </a></div></div></div><style>@media only screen and (min-width: 992px){.qfy-column-7-5952000acaf73777553 > .column_inner {padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}.wpb_row .vc_span_class.qfy-column-7-5952000acaf73777553 {};}@media only screen and (max-width: 992px){.qfy-column-7-5952000acaf73777553 > .column_inner{margin:0 auto 0 !important;padding-left:0;padding-right:0;padding-top:;padding-bottom:;}.display_entire .wpb_row .vc_span_class.qfy-column-7-5952000acaf73777553 {}.qfy-column-7-5952000acaf73777553 > .column_inner> .background-overlay,.qfy-column-7-5952000acaf73777553 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style><div  data-animaleinbegin="bottom-in-view" data-animalename="qfyfadeInLeft" data-delay=""  class="qfyanimate qfy-column-8-5952000acc027477367 qfy-column-inner vc_span_class vc_span6  text-Default small-screen-center"  data-dw="1/2" data-fixheight="" ><div style="margin-top:0;margin-bottom:0;margin-left:0;margin-right:0;border-radius:0px;;position:relative;;" class="column_inner " ><div class=" background-overlay grid-overlay-0" style="background-color:transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" ><section  data-fixheight="" class="qfy-row-5-5952000acc2cf835745 section minperheight20    bothfull  section-text-no-shadow section-inner-no-shadow section-normal"   style='margin-bottom:0;border-radius:0px;color:#000000;' >
-    	    <div class="section-background-overlay background-overlay grid-overlay-0 " style="background-color: transparent;"></div>
-
-    <div class="container">
-        <div class="row wpb_row">
-            <div  data-animaleinbegin="bottom-in-view" data-animalename="qfyfadeInUp" data-delay=""  class=" qfy-column-9-5952000acc490978346 qfy-column-inner  vc_span12  text-default small-screen-default fullrow"  data-dw="1/1" data-fixheight="" ><div style=";position:relative;;" class="column_inner " ><div class=" background-overlay grid-overlay-" style="background-color:transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" ></div></div></div><style>@media only screen and (min-width: 992px){.qfy-column-9-5952000acc490978346 > .column_inner {padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}.wpb_row .vc_span_class.qfy-column-9-5952000acc490978346 {};}@media only screen and (max-width: 992px){.qfy-column-9-5952000acc490978346 > .column_inner{margin:0 auto 0 !important;padding-left:0;padding-right:0;padding-top:;padding-bottom:;}.display_entire .wpb_row .vc_span_class.qfy-column-9-5952000acc490978346 {}.qfy-column-9-5952000acc490978346 > .column_inner> .background-overlay,.qfy-column-9-5952000acc490978346 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style>        </div>
-    </div>
-	<style>
-	@media only screen and (min-width: 992px){
-		section.section.qfy-row-5-5952000acc2cf835745{padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;margin-top:0;}}
-		
-	   	
-	   @media only screen and (max-width: 992px){
-		.bit-html section.section.qfy-row-5-5952000acc2cf835745{padding-left:15px;padding-right:15px;padding-top:0;padding-bottom:0;margin-top:0;}}
-	</style>
-</section>
-	<div  m-padding="0px 0px 0px 0px"  p-padding="0 0 0 40px" css_animation_delay="0" qfyuuid="qfy_column_text_xmgik" data-anitime='0.7'  class="qfy-element qfy-text qfy-text-60040 wpb_text_column wpb_content_element " style="position: relative;;;line-height:2em;;background-position:left top;background-repeat: no-repeat;;margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:40px;border-radius:0px;">
-		<div class="wpb_wrapper">
-			<div><span style="font-family:宋体;"><span style="color: rgb(105, 105, 105);"><span style="font-size: 14px;">旅行篇</span></span></span></div>
-
-<div><span style="font-family:宋体;"><strong><span style="font-size: 22px;">旅行和生活的纪录</span></strong></span></div>
-
-<div><span style="font-family:宋体;"><span style="color: rgb(119, 119, 119);"><span style="font-size: 14px;">录了作者在欧洲各国的旅行见闻和日常生活，向我们描述了活生生的欧式欧洲人的日常生活。</span></span></span></div>
-
-		</div> 
-	</div> </div></div></div><style>@media only screen and (min-width: 992px){.qfy-column-8-5952000acc027477367 > .column_inner {padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}.wpb_row .vc_span_class.qfy-column-8-5952000acc027477367 {};}@media only screen and (max-width: 992px){.qfy-column-8-5952000acc027477367 > .column_inner{margin:0 auto 0 !important;padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}.display_entire .wpb_row .vc_span_class.qfy-column-8-5952000acc027477367 {}.qfy-column-8-5952000acc027477367 > .column_inner> .background-overlay,.qfy-column-8-5952000acc027477367 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style><div class="wf-mobile-hidden" style="clear:both;"></div>        </div>
-    </div>
-	<style>
-	@media only screen and (min-width: 992px){
-		section.section.qfy-row-4-5952000acadae979596{padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;margin-top:0;}}
-		
-	   	
-	   @media only screen and (max-width: 992px){
-		.bit-html section.section.qfy-row-4-5952000acadae979596{padding-left:15px;padding-right:15px;padding-top:0;padding-bottom:0;margin-top:0;}}
-	</style>
-</section><section  data-fixheight="" class="qfy-row-6-5952000accac2656057 section    full   section-text-no-shadow section-inner-no-shadow section-normal"  id="bit_2odoc"  style='margin-bottom:0;border-radius:0px;color:#000000;' >
-    	    <div class="section-background-overlay background-overlay grid-overlay-0 " style="background-color: #f9f9f9;"></div>
-
-    <div class="container">
-        <div class="row wpb_row">
-            <div  data-animaleinbegin="bottom-in-view" data-animalename="qfyfadeInRight" data-delay=""  class="qfyanimate qfy-column-10-5952000accd33232339 qfy-column-inner vc_span_class vc_span6  text-right small-screen-left"  data-dw="1/2" data-fixheight="" ><div style="margin-top:0;margin-bottom:0;margin-left:0;margin-right:0;border-radius:0px;;position:relative;;" class="column_inner " ><div class=" background-overlay grid-overlay-0" style="background-color:transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" ><section  data-fixheight="" class="qfy-row-7-5952000accfc2884745 section minperheight20    bothfull  section-text-no-shadow section-inner-no-shadow section-normal"   style='margin-bottom:0;border-radius:0px;color:#000000;' >
-    	    <div class="section-background-overlay background-overlay grid-overlay-0 " style="background-color: transparent;"></div>
-
-    <div class="container">
-        <div class="row wpb_row">
-            <div  data-animaleinbegin="bottom-in-view" data-animalename="qfyfadeInUp" data-delay=""  class=" qfy-column-11-5952000acd1ab694304 qfy-column-inner  vc_span12  text-default small-screen-default fullrow"  data-dw="1/1" data-fixheight="" ><div style=";position:relative;;" class="column_inner " ><div class=" background-overlay grid-overlay-" style="background-color:transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" ></div></div></div><style>@media only screen and (min-width: 992px){.qfy-column-11-5952000acd1ab694304 > .column_inner {padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}.wpb_row .vc_span_class.qfy-column-11-5952000acd1ab694304 {};}@media only screen and (max-width: 992px){.qfy-column-11-5952000acd1ab694304 > .column_inner{margin:0 auto 0 !important;padding-left:0;padding-right:0;padding-top:;padding-bottom:;}.display_entire .wpb_row .vc_span_class.qfy-column-11-5952000acd1ab694304 {}.qfy-column-11-5952000acd1ab694304 > .column_inner> .background-overlay,.qfy-column-11-5952000acd1ab694304 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style>        </div>
-    </div>
-	<style>
-	@media only screen and (min-width: 992px){
-		section.section.qfy-row-7-5952000accfc2884745{padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;margin-top:0;}}
-		
-	   	
-	   @media only screen and (max-width: 992px){
-		.bit-html section.section.qfy-row-7-5952000accfc2884745{padding-left:15px;padding-right:15px;padding-top:0;padding-bottom:0;margin-top:0;}}
-	</style>
-</section>
-	<div  m-padding="0px 0px 0px 0px"  p-padding="0 40px 0 0" css_animation_delay="0" qfyuuid="qfy_column_text_kiliw" data-anitime='0.7'  class="qfy-element qfy-text qfy-text-31718 wpb_text_column wpb_content_element " style="position: relative;;;line-height:2em;;background-position:left top;background-repeat: no-repeat;;margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;padding-right:40px;padding-left:0;border-radius:0px;">
-		<div class="wpb_wrapper">
-			<div><span style="color:#696969;"><span style="font-size: 14px;">艺术篇</span></span></div>
-
-<div><strong><span style="font-size: 22px;">欧洲艺术见闻录</span></strong></div>
-
-<div><span style="color:#777777;"><span style="font-size: 14px;">记录了作者在欧洲各国的旅行见闻和日常生活，向我们描述了活生生的欧式欧洲人的日常生活</span></span></div>
-
-		</div> 
-	</div> </div></div></div><style>@media only screen and (min-width: 992px){.qfy-column-10-5952000accd33232339 > .column_inner {padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}.wpb_row .vc_span_class.qfy-column-10-5952000accd33232339 {};}@media only screen and (max-width: 992px){.qfy-column-10-5952000accd33232339 > .column_inner{margin:0 auto 0 !important;padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}.display_entire .wpb_row .vc_span_class.qfy-column-10-5952000accd33232339 {}.qfy-column-10-5952000accd33232339 > .column_inner> .background-overlay,.qfy-column-10-5952000accd33232339 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style><div  data-animaleinbegin="bottom-in-view" data-animalename="qfyfadeInUp" data-delay=""  class=" qfy-column-12-5952000acd90f321909 qfy-column-inner vc_span_class vc_span6  text-Default small-screen-Default"  data-dw="1/2" data-fixheight="" ><div style="margin-top:0;margin-bottom:0;margin-left:0;margin-right:0;border-radius:0px;;position:relative;;" class="column_inner " ><div class=" background-overlay grid-overlay-0" style="background-color:transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" >
-	<div id="" style="width:100%;padding:0px;margin:0px;height:100%;clear:both;position:relative;background-repeat: no-repeat;"  m-padding="0px 0px 0px 0px"  p-padding="0px 0px 0px 0px" css_animation_delay="0" qfyuuid="0"     m-padding="0px 0px 0px 0px"  p-padding="0px 0px 0px 0px" css_animation_delay="0" qfyuuid="0"  class="qfy-element bitImageControlDiv"><a class="bitImageAhover  " >
-	<div class="bitImageParentDiv wpb_single_image wpb_content_element vc_align_left">
-		<div class="wpb_wrapper"><span></span><img width="1100" height="1100" src="http://static.qifeiye.com/caches/569b046fc16663a994ea33d5a2a60b54/aHR0cDovLzU0ZDRhNDYyOWZiNmIudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNS8wNi8yOTlmZDlkNmVhN2FjZDI5Yzc5NTFhM2NlZGMzMmI0Mi5qcGc_p_p100_p_3D.jpg" class="front_image  attachment-full" alt="Processed with VSCOcam with c1 preset" title="" description="" data-title="Processed with VSCOcam with c1 preset" src-img="" style='' /></div> 
-	</div> 
-	</div> </a></div></div></div><style>@media only screen and (min-width: 992px){.qfy-column-12-5952000acd90f321909 > .column_inner {padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}.wpb_row .vc_span_class.qfy-column-12-5952000acd90f321909 {};}@media only screen and (max-width: 992px){.qfy-column-12-5952000acd90f321909 > .column_inner{margin:0 auto 0 !important;padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}.display_entire .wpb_row .vc_span_class.qfy-column-12-5952000acd90f321909 {}.qfy-column-12-5952000acd90f321909 > .column_inner> .background-overlay,.qfy-column-12-5952000acd90f321909 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style><div class="wf-mobile-hidden" style="clear:both;"></div>        </div>
-    </div>
-	<style>
-	@media only screen and (min-width: 992px){
-		section.section.qfy-row-6-5952000accac2656057{padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;margin-top:0;}}
-		
-	   	
-	   @media only screen and (max-width: 992px){
-		.bit-html section.section.qfy-row-6-5952000accac2656057{padding-left:15px;padding-right:15px;padding-top:0;padding-bottom:0;margin-top:0;}}
-	</style>
-</section><section  data-fixheight="" class="qfy-row-8-5952000ace43f219168 section     no  section-text-no-shadow section-inner-no-shadow section-normal"  id="bit_hglik"  style='margin-bottom:0;border-radius:0px;color:#000000;' >
-    	    <div class="section-background-overlay background-overlay grid-overlay-0 " style="background-color: #ffffff;"></div>
-
-    <div class="container">
-        <div class="row wpb_row">
-            <div  data-animaleinbegin="bottom-in-view" data-animalename="qfyfadeInUp" data-delay=""  class=" qfy-column-13-5952000ace714897250 qfy-column-inner  vc_span12  text-default small-screen-default fullrow"  data-dw="1/1" data-fixheight="" ><div style=";position:relative;;" class="column_inner " ><div class=" background-overlay grid-overlay-" style="background-color:transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" ><style>@media only screen and (max-width: 760px) {#vc_header_5952000acec30523 .header_title{font-size:24px !important;}}</style><style>@media only screen and (max-width: 760px) {#vc_header_5952000acec30523 .header_subtitle{font-size:20px !important;}}</style>
-	<div id="vc_header_5952000acec30523"  m-padding="0px 0px 0px 0px"  p-padding="0 0 0 0" css_animation_delay="0" qfyuuid="qfy_header_t4sgk" data-anitime='0.7'  class="qfy-element minheigh1px wpb_text_column wpb_content_element " style="position: relative;;;background-repeat: no-repeat;;margin-top:20px;margin-bottom:20px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;">
-		<div class="wpb_wrapper">
-			<H1 class="qfy_title center mobilecenter"><div class="qfy_title_inner" style="display:inline-block;position:relative;max-width:100%;"><div class="header_title" style="font-family:verdana;font-size:40px;font-weight:bold;font-style:normal;color:#000;">Story of Time</div></div><style></style><div class="button_wrapper" style="display:none;"><div class="button " style="display:inline-block;max-width:100%;text-align:center; font-size:14px; color:#333; padding:5px;">+ 查看更多</div></div><span  style="clear:both;"></span></H1>
-		</div> 
-	</div> 
-	<div  m-padding="0px 0px 0px 0px"  p-padding="0px 130px 0px 130px" css_animation_delay="0" qfyuuid="qfy_column_text_nxx7x"  class="qfy-element qfy-text qfy-text-39123 wpb_text_column wpb_content_element  mobile_fontsize13" style="position: relative;;;line-height:1.5em;;background-repeat: no-repeat;;margin-top:0;margin-bottom:50px;padding-right:130px;padding-left:130px;">
-		<div class="wpb_wrapper">
-			<div style="position: relative;">
-<div style="text-align: center;"><span style="font-size:14px;"><span style="color: rgb(102, 102, 102);">&nbsp;</span></span></div>
-
-<div class="block" data-move-y="-40px" style="transition: all 1s ease 0s, opacity 1.5s ease 0s; opacity: 1;">
-<div class="block" data-move-y="-40px" style="transition: all 1s ease 0s, opacity 1.5s ease 0s; opacity: 1;">
-<div style="text-align: center;"><span style="font-size:14px;"><span style="color: rgb(102, 102, 102);">応损捠捡换攳，攴朰朲朳枛朸桸桹桺奿妀。夲夳夵壱売壳圢圤圥圦圧！圩圪囡団囤囥咍咎，咐咑厺厼厽桻桼忝忞帄帇帉帊峢；峣峤屴屵屶屷宓宔宖忟忡，忢忣忥忦忨忩忪忬忭忮忯忰。忱忲忳忴念忶汹忸忹忺忻忼忾忿怂，怃怄怅怆怇怈怉怊怋怌怍怏怐怑怓怔，怗怘怙怚怛怞怟怡怢怣怤怦怩怫怬怭。怮怯怰，怲怳怴怵怶怷怸怹怺怼悙怿。恀恁恂恃恄恅，恒恇恈恉恊恌恍恎恏。恑！恒！恓！恔恖恗恘恙恚恛恜恝恞恠恡恦，恧恫恬恮恰恱恲恴恷恹恺，恻恽恾恿悀悁悂悃悆悇悈悊。</span><span style="font-family: comic sans ms,cursive;"></span></span></div>
-
-<div style="text-align: center;">&nbsp;</div>
-</div>
-</div>
-</div>
-
-		</div> 
-	</div> </div></div></div><style>@media only screen and (min-width: 992px){.qfy-column-13-5952000ace714897250 > .column_inner {padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}.wpb_row .vc_span_class.qfy-column-13-5952000ace714897250 {};}@media only screen and (max-width: 992px){.qfy-column-13-5952000ace714897250 > .column_inner{margin:0 auto 0 !important;padding-left:0;padding-right:0;padding-top:;padding-bottom:8px;}.display_entire .wpb_row .vc_span_class.qfy-column-13-5952000ace714897250 {}.qfy-column-13-5952000ace714897250 > .column_inner> .background-overlay,.qfy-column-13-5952000ace714897250 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style>        </div>
-    </div>
-	<style>
-	@media only screen and (min-width: 992px){
-		section.section.qfy-row-8-5952000ace43f219168{padding-left:0;padding-right:0;padding-top:20px;padding-bottom:0;margin-top:20px;}}
-		
-	   	
-	   @media only screen and (max-width: 992px){
-		.bit-html section.section.qfy-row-8-5952000ace43f219168{padding-left:15px;padding-right:15px;padding-top:24px;padding-bottom:0;margin-top:0;}}
-	</style>
-</section><section  data-fixheight="" class="qfy-row-9-5952000acf2b6595024 section     no  section-text-no-shadow section-inner-no-shadow section-normal"  id="bit_ldnqp"  style='margin-bottom:0;border-radius:0px;color:#000000;' >
-    	    <div class="section-background-overlay background-overlay grid-overlay-0 " style="background-color: transparent;"></div>
-
-    <div class="container">
-        <div class="row wpb_row">
-            <div  data-animaleinbegin="bottom-in-view" data-animalename="qfyfadeInUp" data-delay=""  class=" qfy-column-14-5952000acf49c520223 qfy-column-inner  vc_span12  text-default small-screen-default fullrow"  data-dw="1/1" data-fixheight="" ><div style=";position:relative;;" class="column_inner " ><div class=" background-overlay grid-overlay-" style="background-color:transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" ><div  data-loading="" data-loading-w=""  data-open="" data-post="post" data-cate="40"   m-padding="0px 0px 0px 0px"  p-padding="0 0 0 0" css_animation_delay="0" qfyuuid="advanced_list_yvg4w"   class="qfy-element advanced-list-5952000ad0b60536 wpb_teaser_grid wpb_content_element  wpb_grid columns_count_2 columns_count_2 wpb_teaser_grid_post  advanced_list " style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;">
-<style>.advanced-list-5952000ad0b60536 .item_block:hover .item_wrapper .title{color:#ffffff !important;}.advanced-list-5952000ad0b60536 .item_block:hover .item_wrapper .subtitle{color:#848484 !important;}.advanced-list-5952000ad0b60536 .item_block:hover .item_wrapper .year{color:#bdbdbd !important;}.advanced-list-5952000ad0b60536 .item_block:hover .item_wrapper .md{color:#bdbdbd !important;}.advanced-list-5952000ad0b60536 .item_block:hover .item_wrapper .cate span{color:#ffffff !important;}.advanced-list-5952000ad0b60536 .item_block:hover .item_wrapper .description{color:#cccccc !important;}.advanced-list-5952000ad0b60536 .item_block:hover .price_warp .amount,.advanced-list-5952000ad0b60536 .item_block:hover .price_warp del{color:#cccccc !important;}.advanced-list-5952000ad0b60536 .item_block:hover .price_warp ins .amount{color:#cccccc !important;}@media only screen and (max-width: 992px) {.advanced-list-5952000ad0b60536 .item_block{padding:0px !important;position:relative !important;}.advanced-list-5952000ad0b60536 .item_block .item_wrapper{position:relative !important;top:0 !important;}.advanced-list-5952000ad0b60536  .item_block .item_mask{display:none !important;}.advanced-list-5952000ad0b60536 .item_block .item_wrapper{background:rgba(117,117,117,1) !important;}.advanced-list-5952000ad0b60536 .item_block:hover .item_wrapper .title{color:#444444 !important;}.advanced-list-5952000ad0b60536 .item_block:hover .item_wrapper .subtitle{color:#848484 !important;}.advanced-list-5952000ad0b60536 .item_block:hover .item_wrapper .year{color:#bdbdbd !important;}.advanced-list-5952000ad0b60536 .item_block:hover .item_wrapper .md{color:#bdbdbd !important;}.advanced-list-5952000ad0b60536 .item_block:hover .item_wrapper .cate span{color:#848484 !important;}.advanced-list-5952000ad0b60536 .item_block:hover .item_wrapper .description{color:#999999 !important;}.advanced-list-5952000ad0b60536 .item_block:hover .price_warp .amount,.advanced-list-5952000ad0b60536 .item_block .price_warp del{color:#cccccc !important;}.advanced-list-5952000ad0b60536 .item_block:hover .price_warp ins .amount{color:#cccccc !important;}.advanced-list-5952000ad0b60536  .item_block .item_wrapper .item_info .subtitle, .advanced-list-5952000ad0b60536 .item_block .item_wrapper .item_info .date_wrap, .advanced-list-5952000ad0b60536 .item_block .item_wrapper .item_info .cate, .advanced-list-5952000ad0b60536 .item_block .item_wrapper .item_info .item_des{opacity: 1 !important;}.advanced-list-5952000ad0b60536 .item_block .item_wrapper{background:none !important};}.advanced-list-5952000ad0b60536 .item_block .price_warp .amount,.advanced-list-5952000ad0b60536 .item_block .price_warp del{color:#cccccc;font-size:12px;}.advanced-list-5952000ad0b60536 .item_block .price_warp ins .amount{color:#cccccc;font-size:12px;}.advanced-list-5952000ad0b60536 .item_block .price_warp {padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;}.advanced-list-5952000ad0b60536 .item_block .item_wrapper{background:rgba(255,255,255,1);}.advanced-list-5952000ad0b60536 .item_block:hover .item_wrapper{background:rgba(117,117,117,1);}.advanced-list-5952000ad0b60536 .item_block:hover .item_img img{transform:none;}.advanced-list-5952000ad0b60536 .vc-carousel .vc-left{background-color: #cccccc;}.advanced-list-5952000ad0b60536 .vc-carousel .vc-right{background-color: #cccccc;}.advanced-list-5952000ad0b60536 .vc-carousel .vc-left:hover{background-color: #cccccc;}.advanced-list-5952000ad0b60536 .vc-carousel .vc-right:hover{background-color: #cccccc;}.advanced-list-5952000ad0b60536 .vc-carousel .vc-left:before{color: #ffffff;}.advanced-list-5952000ad0b60536 .vc-carousel .vc-right:before{color: #ffffff;}.advanced-list-5952000ad0b60536 .vc-carousel .vc-left:hover:before{color: #ffffff;}.advanced-list-5952000ad0b60536 .vc-carousel .vc-right:hover:before{color: #ffffff;}.advanced-list-5952000ad0b60536 .vc-carousel .vc-left{opacity: 0.7;}.advanced-list-5952000ad0b60536 .vc-carousel .vc-right{opacity: 0.7;}.advanced-list-5952000ad0b60536 .vc-carousel .vc-left:hover{opacity: 1;}.advanced-list-5952000ad0b60536 .vc-carousel .vc-right:hover{opacity: 1;}.advanced-list-5952000ad0b60536 .vc-carousel .vc-left:hover{border-color: #cccccc;}.advanced-list-5952000ad0b60536 .vc-carousel .vc-right:hover{border-color: #cccccc;}.advanced-list-5952000ad0b60536 .list-style7 .item_block .item_info {height:120px}.advanced-list-5952000ad0b60536 .list-style7 .text_wrap{height:120px}.advanced-list-5952000ad0b60536 .list-style7  .item_block:hover::before {background-color: #757575;}.advanced-list-5952000ad0b60536 .list-style7  .item_block:hover {border-color:#cfcfcf}.advanced-list-5952000ad0b60536 .list-style7 .item_block  .date_wrap {margin-top:20px;}.advanced-list-5952000ad0b60536 .list-style7  .more::after,.advanced-list-5952000ad0b60536 .list-style7  .more::before,.advanced-list-5952000ad0b60536 .list-style7  .vc-carousel-slideline-inner:before {background-color: #cfcfcf;}.advanced-list-5952000ad0b60536 .list-style7   .item_block::after{border-color: #cfcfcf; }.advanced-list-5952000ad0b60536 .list-style7   .more{border-color: #cfcfcf; }.advanced-list-5952000ad0b60536 .list-style7   .more:hover { background-color:#757575;border-color:#757575; }.advanced-list-5952000ad0b60536 .list-style7 .item_block:hover::after{border-color: #757575; }</style>    <div class="wpb_wrapper list-style7">
-        <div  style=';clear:both;' data-type="post" data-cate="40" data-pcate="">
-		 <div id="advanced-carousel-5952000ad0b1a398"  data-wrap="true" data-viewnum="1" data-interval="0" data-auto-height="true" data-mode="horizontal" data-partial="false" data-per-view="1" data-hide-on-end="true"  class="normal-list" style=''>
-            <!-- Indicators -->
-			            <section class="vc-carousel-inner ">
-                <div class="vc-carousel-slideline">
-					<div class="vc-carousel-slideline-inner">
-
-                                                                									<div class="vc_ca_post_id qfy_item_post qfyanimate vc_span12 list-item"  data-postid="9869"  data-animaleinbegin="bottom-in-view" data-animalename="qfyfadeInUp" data-delay="0"  style='' >
-                    <div style='margin-bottom:0px;padding:5px;'><div id="item_block" class="qfy_item_block item_block " style=" position: relative;">
-  <div class="item_box "  >
-  	   
-      <a  class='item_a_link' href='http://54d4a4629fb6b.t73.qifeiye.com/?p=9869' title="东欧最浪漫的城市-布达佩斯" target='_self' >
-	      <div class="item_img" target="_blank">
-	          <img data-t-id='9871' style='' class=" ag_image" src="http://static.qifeiye.com/caches/569b046fc16663a994ea33d5a2a60b54/aHR0cDovLzU0ZDRhNDYyOWZiNmIudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNy8wNi8wMDc5OTUyYWU4OTBjMzgzMzI1ZWUwMzIxNGFlNzE3Ny02MDB4MzAwLmpwZw_p_p100_p_3D_p_p100_p_3D.jpg" alt="54" description=""    data-title="54" title="" src-img ="" />	          <div class="item_mask"></div>
-	      </div>
-      </a>
-
-      <div class="item_wrapper clearfix">
-        <div class="item_info clearfix">
-                        <div class="text_wrap">
-          	            	  <a class="item_a_link" href='http://54d4a4629fb6b.t73.qifeiye.com/?p=9869' title="东欧最浪漫的城市-布达佩斯" target='_self' >
-              	<div class="title ellipsis"  data-title="true" style="color:#444444;font-size:14px;font-family:微软雅黑;font-weight:normal;">东欧最浪漫的城市-布达佩斯</div>
-              </a>
-                            <div class="subtitle ellipsis hide" style="color:#848484;font-size:12px;">一座叫布达，另一座叫佩斯</div>
-                           	                        <div class="cate_warp ellipsis hide" >
-			  	<span><a class='cate' target='' style='color:#848484;font-size:12px;' class='cate' href='http://54d4a4629fb6b.t73.qifeiye.com?page_id=7174&categories=40' ><span  >Blog</span></a>&nbsp;</span>			  </div>
-			  			  			  	 <div class="item_des show" style="max-width:px;" >
-		          <div class="description post_excerpt" style="color:#999999;font-size:13px;max-width:px;word-break:break-all;font-family:微软雅黑;line-height:24px;"><p>从前在多瑙河两岸面对面坐落着两座城市，一座叫布达，另一座叫佩斯，布达在西，佩斯在东。</p>
-</div>
-		        </div>
-			  			                <div class="price_warp ellipsis hide" >
-			  				  </div>
-          </div>
-          	
+        <div class="title">
+            <h1>我是周悦</h1>
+            <p class="subline">欢迎走进我的世界</p>
         </div>
-                    	
-              <div class="date_wrap show" style="">
-              		<span class="md " style="color:#bdbdbd;font-size:36px;font-family:微软雅黑;;">06-03</span>
-	           	 	<span class="year post_date" style="color:#bdbdbd;font-size:12px;font-family:微软雅黑;;">2017</span>
-	         </div>
-	        
-	                       </div>
-    </div>  
-      <a href='http://54d4a4629fb6b.t73.qifeiye.com/?p=9869' title="东欧最浪漫的城市-布达佩斯" target='_self' class="details item_link" style="color:#848484;font-size:12px;" >MORE123<i class="fa fa-angle-right" aria-hidden="true"></i></a>
-      
-  </div>
+        
+        <button class="trigger" data-info="点此开始"><span>Trigger</span></button>
+    </header>
 
-</div>					</div>
-					
-				              
-				<p class="wf-mobile-hidden" style="clear:both;padding:0;"></p>                                									<div class="vc_ca_post_id qfy_item_post qfyanimate vc_span12 list-item"  data-postid="9866"  data-animaleinbegin="bottom-in-view" data-animalename="qfyfadeInUp" data-delay="0.1"  style='' >
-                    <div style='margin-bottom:0px;padding:5px;'><div id="item_block" class="qfy_item_block item_block " style=" position: relative;">
-  <div class="item_box "  >
-  	   
-      <a  class='item_a_link' href='http://54d4a4629fb6b.t73.qifeiye.com/?p=9866' title="孤独的力量和喜悦的人生" target='_self' >
-	      <div class="item_img" target="_blank">
-	          <img data-t-id='9867' style='' class=" ag_image" src="http://static.qifeiye.com/caches/569b046fc16663a994ea33d5a2a60b54/aHR0cDovLzU0ZDRhNDYyOWZiNmIudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNy8wNi9lOWEwMjczNzVhYzk5ZTdiZDJmYTBmYzMyODcxMDNmZS02MDB4MzAwLmpwZw_p_p100_p_3D_p_p100_p_3D.jpg" alt="一只天鹅" description=""    data-title="一只天鹅" title="" src-img ="" />	          <div class="item_mask"></div>
-	      </div>
-      </a>
-
-      <div class="item_wrapper clearfix">
-        <div class="item_info clearfix">
-                        <div class="text_wrap">
-          	            	  <a class="item_a_link" href='http://54d4a4629fb6b.t73.qifeiye.com/?p=9866' title="孤独的力量和喜悦的人生" target='_self' >
-              	<div class="title ellipsis"  data-title="true" style="color:#444444;font-size:14px;font-family:微软雅黑;font-weight:normal;">孤独的力量和喜悦的人生</div>
-              </a>
-                            <div class="subtitle ellipsis hide" style="color:#848484;font-size:12px;">似乎孤独的问题解决了，这个世界也就美好了</div>
-                           	                        <div class="cate_warp ellipsis hide" >
-			  	<span><a class='cate' target='' style='color:#848484;font-size:12px;' class='cate' href='http://54d4a4629fb6b.t73.qifeiye.com?page_id=7174&categories=40' ><span  >Blog</span></a>&nbsp;</span>			  </div>
-			  			  			  	 <div class="item_des show" style="max-width:px;" >
-		          <div class="description post_excerpt" style="color:#999999;font-size:13px;max-width:px;word-break:break-all;font-family:微软雅黑;line-height:24px;"><p>看到一则消息，有一伙科学家或是心理学家，研究了好几年，发现人的孤独感和你洗澡的温度和时间成正比。</p>
-</div>
-		        </div>
-			  			                <div class="price_warp ellipsis hide" >
-			  				  </div>
-          </div>
-          	
+    <!-- Intro -->
+    
+    <section id="intro" class="content">
+        <div class="container">
+            <h2>我是</h2>
+            <p>在上过两个星期小学后，我便退学回家自学，成为一名 homeschooler。从此，应试教育和学校里面所发生的一切，都与我无关。</p>
+            <p>现在我 21 岁，在自学的这些年里，我自己学，做自己。追寻自己的所想所爱，并试着将各种兴趣爱好串连在一起。</p>
         </div>
-                    	
-              <div class="date_wrap show" style="">
-              		<span class="md " style="color:#bdbdbd;font-size:36px;font-family:微软雅黑;;">06-03</span>
-	           	 	<span class="year post_date" style="color:#bdbdbd;font-size:12px;font-family:微软雅黑;;">2017</span>
-	         </div>
-	        
-	                       </div>
-    </div>  
-      <a href='http://54d4a4629fb6b.t73.qifeiye.com/?p=9866' title="孤独的力量和喜悦的人生" target='_self' class="details item_link" style="color:#848484;font-size:12px;" >MORE123<i class="fa fa-angle-right" aria-hidden="true"></i></a>
-      
-  </div>
+    </section>
 
-</div>					</div>
-					
-				              
-				<p class="wf-mobile-hidden" style="clear:both;padding:0;"></p>                                									<div class="vc_ca_post_id qfy_item_post qfyanimate vc_span12 list-item"  data-postid="9862"  data-animaleinbegin="bottom-in-view" data-animalename="qfyfadeInUp" data-delay="0.2"  style='' >
-                    <div style='margin-bottom:0px;padding:5px;'><div id="item_block" class="qfy_item_block item_block " style=" position: relative;">
-  <div class="item_box "  >
-  	   
-      <a  class='item_a_link' href='http://54d4a4629fb6b.t73.qifeiye.com/?p=9862' title="西班牙为何被称作西班牙？" target='_self' >
-	      <div class="item_img" target="_blank">
-	          <img data-t-id='9864' style='' class=" ag_image" src="http://static.qifeiye.com/caches/569b046fc16663a994ea33d5a2a60b54/aHR0cDovLzU0ZDRhNDYyOWZiNmIudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNy8wNi84MWM4OWQyMjNkMDcxNGM4YjM0NTNkYzZhODA4ZGU1Ni02MDB4MzAwLmpwZw_p_p100_p_3D_p_p100_p_3D.jpg" alt="65" description=""    data-title="65" title="" src-img ="" />	          <div class="item_mask"></div>
-	      </div>
-      </a>
-
-      <div class="item_wrapper clearfix">
-        <div class="item_info clearfix">
-                        <div class="text_wrap">
-          	            	  <a class="item_a_link" href='http://54d4a4629fb6b.t73.qifeiye.com/?p=9862' title="西班牙为何被称作西班牙？" target='_self' >
-              	<div class="title ellipsis"  data-title="true" style="color:#444444;font-size:14px;font-family:微软雅黑;font-weight:normal;">西班牙为何被称作西班牙？</div>
-              </a>
-                            <div class="subtitle ellipsis hide" style="color:#848484;font-size:12px;">重点不是牙，而是在西班</div>
-                           	                        <div class="cate_warp ellipsis hide" >
-			  	<span><a class='cate' target='' style='color:#848484;font-size:12px;' class='cate' href='http://54d4a4629fb6b.t73.qifeiye.com?page_id=7174&categories=40' ><span  >Blog</span></a>&nbsp;</span>			  </div>
-			  			  			  	 <div class="item_des show" style="max-width:px;" >
-		          <div class="description post_excerpt" style="color:#999999;font-size:13px;max-width:px;word-break:break-all;font-family:微软雅黑;line-height:24px;"><p>住在西班牙有一段时间了，每天都用中文和西文有时还英文重复着这个国家的名字。西班牙的西文名叫Españ...</p>
-</div>
-		        </div>
-			  			                <div class="price_warp ellipsis hide" >
-			  				  </div>
-          </div>
-          	
+    <!-- Travel -->
+    
+    <section id="travel" class="content">
+        <div class="container">
+            <h2>行万里路</h2>
+            <p>旅行，是我的主要学习方式之一，我每年有四分之一的时间都在路上。天地之间，有一本无字书，走着、看着，也思考着，永远也学不完。</p>
+            <p>对我来说，走遍世界不仅仅是个梦想。</p>
         </div>
-                    	
-              <div class="date_wrap show" style="">
-              		<span class="md " style="color:#bdbdbd;font-size:36px;font-family:微软雅黑;;">06-03</span>
-	           	 	<span class="year post_date" style="color:#bdbdbd;font-size:12px;font-family:微软雅黑;;">2017</span>
-	         </div>
-	        
-	                       </div>
-    </div>  
-      <a href='http://54d4a4629fb6b.t73.qifeiye.com/?p=9862' title="西班牙为何被称作西班牙？" target='_self' class="details item_link" style="color:#848484;font-size:12px;" >MORE123<i class="fa fa-angle-right" aria-hidden="true"></i></a>
-      
-  </div>
+        <div id="maps">
+            <h3>我在中国的旅行足迹</h3>
+        </div>
+    </section>
 
-</div>					</div>
-					
-				              
-				<p class="wf-mobile-hidden" style="clear:both;padding:0;"></p>                                				
+    <!-- Photography -->
+    
+    <section id="photography" class="content">
+        <div class="container">
+            <h2>光的艺术</h2>
+            <p>我爱摄影，尤其是壮美的自然风光。因为旅行，我爱上了摄影；也因为摄影，我更热爱旅行。</p>
+            <a href="javascript:;" data-action="reload-montage"><i class="icon-shuffle"></i> <span>换一换</span></a>
+        </div>
+        <div id="montage" class="row uniform 25%"></div>
+    </section>
+
+    <!-- Design -->
+    
+    <section id="design" class="content">
+        <div class="container">
+            <h2>我爱设计</h2>
+            <p>我设计各种各样的东西，从平面设计到室内，再到用户界面和网页设计。</p>
+            <p>我很喜欢把我的创造性发挥到极限，更享受从无到有、渐渐完美的设计过程。我爱设计，也相信它会让生活更美好。</p>
+            
+            <div class="row uniform">
+                <figure class="6u">
+                    <img src="http://v6.res.dandyweng.com/images/placeholder.png" data-original="http://v6.res.dandyweng.com/images/blog-mockup.jpg" alt="我的博客主页" />
+                </figure>
+                <figure class="6u">
+                    <img src="http://v6.res.dandyweng.com/images/placeholder.png" data-original="http://v6.res.dandyweng.com/images/album-mockup-sideview.jpg" alt="我的影集" />
+                </figure>
             </div>
-
-			</div>
-			</section>
-								
-          			<a   onclick="nav_pagemore(this)" data-url="http://54d4a4629fb6b.t73.qifeiye.com/?paged=2"  data-loadtext=""  class="more mypages pagenav more qfyanimate"  data-animalename="qfyfadeInUp" data-delay="0.3" ></a>
-	        
-	         			
-			</div>
-
         </div>
-    </div>
-    <div class="clear"></div>
+    </section>
+
+    <!-- Programming -->
     
-    
-</div></div></div></div><style>@media only screen and (min-width: 992px){.qfy-column-14-5952000acf49c520223 > .column_inner {padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}.wpb_row .vc_span_class.qfy-column-14-5952000acf49c520223 {};}@media only screen and (max-width: 992px){.qfy-column-14-5952000acf49c520223 > .column_inner{margin:0 auto 0 !important;padding-left:0;padding-right:0;padding-top:;padding-bottom:;}.display_entire .wpb_row .vc_span_class.qfy-column-14-5952000acf49c520223 {}.qfy-column-14-5952000acf49c520223 > .column_inner> .background-overlay,.qfy-column-14-5952000acf49c520223 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style>        </div>
-    </div>
-	<style>
-	@media only screen and (min-width: 992px){
-		section.section.qfy-row-9-5952000acf2b6595024{padding-left:0;padding-right:0;padding-top:70px;padding-bottom:0;margin-top:0;}}
-		
-	   	
-	   @media only screen and (max-width: 992px){
-		.bit-html section.section.qfy-row-9-5952000acf2b6595024{padding-left:15px;padding-right:15px;padding-top:70px;padding-bottom:0;margin-top:0;}}
-	</style>
-</section><section  data-fixheight="" class="qfy-row-10-5952000ad4ad8879886 section     no  section-text-no-shadow section-inner-no-shadow section-normal"  id="bit_4t334"  style='margin-bottom:0;border-radius:0px;color:#000000;' >
-    	    <div class="section-background-overlay background-overlay grid-overlay-0 " style="background-color: #ffffff;"></div>
+    <section id="programming" class="content">
+        <div class="container">
+            <h2>逻辑思维</h2>
+            <p>我喜欢挑战自己，而编程恰好充满挑战性。更重要的是，我的逻辑思维因此得到提高。在过去六年里，我先后学了 Visual Basic、HTML、CSS、JavaScript、PHP 和 SQL 等多种计算机语言，我还在不断学习新的编程语言，比如 Swift 和 Objective-C。</p>
+            <p>你现在正在浏览的网站是我的个人主页，我每年都会把它彻底地重新设计和开发一次，以展示我在过去一年中学习到的相关新知识。</p>
 
-    <div class="container">
-        <div class="row wpb_row">
-            <div  data-animaleinbegin="bottom-in-view" data-animalename="qfyfadeInUp" data-delay=""  class=" qfy-column-15-5952000ad4e21125527 qfy-column-inner  vc_span12  text-default small-screen-undefined fullrow"  data-dw="1/1" data-fixheight="" ><div style=";position:relative;;" class="column_inner " ><div class=" background-overlay grid-overlay-" style="background-color:transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" >
-	<div  m-padding="100px 0px 0px 0px"  p-padding="100px 0px 0px 0px" css_animation_delay="0" qfyuuid="0"  class="qfy-element qfy-text qfy-text-41779 wpb_text_column wpb_content_element " style="position: relative;;;line-height:1.5em;;background-repeat: no-repeat;;margin-top:-80px;margin-bottom:40px;padding-top:100px;">
-		<div class="wpb_wrapper">
-			<div style="text-align: center;"><span style="font-family:georgia,serif;"><span style="color: rgb(169, 169, 169);"><span style="font-size: 14px;">In an ideal world this website wouldn’t exist, a client would acknowledge the importance of having web </span></span></span></div>
-
-<div style="text-align: center;"><span style="font-family:georgia,serif;"><span style="color: rgb(169, 169, 169);"><span style="font-size: 14px;">copy before the design starts. Needless to say it’s very important, content is king and people.</span></span></span></div>
-
-		</div> 
-	</div> </div></div></div><style>@media only screen and (min-width: 992px){.qfy-column-15-5952000ad4e21125527 > .column_inner {padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}.wpb_row .vc_span_class.qfy-column-15-5952000ad4e21125527 {};}@media only screen and (max-width: 992px){.qfy-column-15-5952000ad4e21125527 > .column_inner{margin:0 auto 0 !important;padding-left:0;padding-right:0;padding-top:;padding-bottom:;}.display_entire .wpb_row .vc_span_class.qfy-column-15-5952000ad4e21125527 {}.qfy-column-15-5952000ad4e21125527 > .column_inner> .background-overlay,.qfy-column-15-5952000ad4e21125527 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style>        </div>
-    </div>
-	<style>
-	@media only screen and (min-width: 992px){
-		section.section.qfy-row-10-5952000ad4ad8879886{padding-left:0;padding-right:0;padding-top:20px;padding-bottom:0;margin-top:0;}}
-		
-	   	
-	   @media only screen and (max-width: 992px){
-		.bit-html section.section.qfy-row-10-5952000ad4ad8879886{padding-left:15px;padding-right:15px;padding-top:20px;padding-bottom:;margin-top:0;}}
-	</style>
-</section>                             </div>
-                    
-
-                         <div class="clear"></div>
+            <div class="row uniform 75%">
+                <header class="12u">
+                    <h3>这个网站的早期版本</h3>
+                </header>
+                <div class="7u column left">
+                    <div class="row uniform 75%">
+                        <a href="http://www.dandyweng.com/versions/2014/" data-version="2014" target="_blank" class="12u" rel="alternate"><img src="http://v6.res.dandyweng.com/images/placeholder.png" data-original="http://v6.res.dandyweng.com/images/thumb-2014.jpg" alt="2014" /></a>
                     </div>
-              </div>
-        </div><!-- END .page-wrapper -->
-         <div class="clear"></div>
-</div>
-<div class="clear"></div>
+                    <div class="row uniform 75%">
+                        <a href="http://www.dandyweng.com/versions/2013/" data-version="2013" target="_blank" class="12u" rel="alternate"><img src="http://v6.res.dandyweng.com/images/placeholder.png" data-original="http://v6.res.dandyweng.com/images/thumb-2013.jpg" alt="2013" /></a>
+                    </div>
+                </div>
+                <div class="5u column right">
+                    <div class="row uniform 75%">
+                        <a href="http://www.dandyweng.com/versions/2012/" data-version="2012" target="_blank" class="12u" rel="alternate"><img src="http://v6.res.dandyweng.com/images/placeholder.png" data-original="http://v6.res.dandyweng.com/images/thumb-2012.jpg" alt="2012" /></a>
+                    </div>
+                    <div class="row uniform 75%">
+                        <a href="http://www.dandyweng.com/versions/2011/" data-version="2011" target="_blank" class="12u" rel="alternate"><img src="http://v6.res.dandyweng.com/images/placeholder.png" data-original="http://v6.res.dandyweng.com/images/thumb-2011.jpg" alt="2011" /></a>
+                    </div>
+                    <div class="row uniform 75%">
+                        <a href="http://www.dandyweng.com/versions/2010/" data-version="2010" target="_blank" class="12u" rel="alternate"><img src="http://v6.res.dandyweng.com/images/placeholder.png" data-original="http://v6.res.dandyweng.com/images/thumb-2010.jpg" alt="2010" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-			
-			</div>
-		
-    			</div><!-- .wf-container -->
-		</div><!-- .wf-wrap -->
-	</div><!-- #main -->
-			
-	
-	
+    <!-- Apple -->
+    
+    <section id="apple" class="content">
+        <div class="container">
+            <h2>一个 <i class="icon-apple"></i> 粉丝</h2>
+            <p>我是一个铁杆“果粉”，我喜爱的不仅仅是 Apple 的产品，更推崇其标志性的极简主义设计风格。我曾排队 14 小时购得中国第一台 iPad 2，之后又为了 iPhone 4s 排队 20 小时。目前我正在学习开发 iOS app，下面这个是我的最新作品。</p>
+            <a href="https://blog.dandyweng.com/2017/02/nine-months-of-work/?from=dw" target="_blank" rel="external">
+                <img src="http://v6.res.dandyweng.com/images/placeholder.png" data-original="https://dn-ssl-dw-blog.qbox.me/files/2017/02/vary-home-screen-in-hand-held-iphone-7.jpg" alt="Vary iOS App" />
+                <span>了解这个 app 的详情信息 &raquo;</span>
+            </a>
+        </div>
+    </section>
 
-<a href="#" class="scroll-top "></a>
+    <!-- More -->
+    
+    <section id="more" class="content">
+        <div class="container">
+            <h2>我的故事</h2>
+            <p>从我 18 岁起，就有幸受邀到国内一些知名高校演讲，与同龄人分享我的故事、思考和体会。下面的视频是我在同济大学的演讲，这是我第一次登上讲台，很紧张，还有些青涩。不过，还算勉强把想表达的都说出来了，如果你想更深入地了解我，那不妨一看。</p>
+            
+            <div class="row uniform">
+                <div id="video" class="7u 12u(tablet)">
+                    <a href="javascript:;" data-action="play-video" data-youku-id="XNjUyOTM0ODI0" data-youtube-id="F4BWNANyNhs">
+                        <img src="http://v6.res.dandyweng.com/images/placeholder.png" data-original="http://v6.res.dandyweng.com/images/tju-speech.jpg" alt="我在同济大学的演讲" />
+                        <i class="icon-play"></i>
+                    </a>
+                </div>
+                <div class="5u 12u(tablet) description">
+                    <h3>为何不走寻常路</h3>
+                    <p>世界已经为我们准备了一切。大路和小路，都在我们脚下。我一直在探寻，没有犹豫，说走就走。作为一名 homeschooler，走过的、还要走的，注定都是不寻常的路。我要问问这个世界：不走寻常路，风景是否这边独好？</p>
+                    <span>2013 年 12 月，上海</span>
+                </div>
+                <div id="player" class="12u"></div>
+            </div>
+            <p class="extra-links"><a href="http://v.youku.com/v_show/id_XNjUyOTM0ODI0.html" target="_blank" rel="external nofollow">去优酷观看</a> <span>|</span> <a href="https://www.youtube.com/watch?v=F4BWNANyNhs" target="_blank" rel="external nofollow">在 YouTube 上观看</a></p>
+        </div>
+    </section>
 
-</div><!-- #page -->
-
-<div style='display:none;'></div></body>
-
-</html>
+    <!-- Say Hello -->
+    
+    <section id="say-hello" class="content">
+        <div class="container">
+            <h2>打个招呼吧</h2>
+            <p>我很期待与同龄人的交流。你的留言会被发布在我博客的<a href="https://blog.dandyweng.com/messages/" target="_blank" rel="external">留言板</a>上，我会在有空时尽快回复你。</p>
+            
+            <form id="comment" action="#">
+                <div class="row uniform">    
+                    <div class="6u 12u(tablet)"><input type="text" name="author" placeholder="称呼"></div>
+                    <div class="12u"><textarea name="comment" rows="5" placeholder="留言"></textarea></div>
+                    <div class="6u 12u(tablet)"><input type="text" name="email" placeholder="邮箱"></div>
+                    <div class="6u 12u(tablet)"><input type="text" name="url" placeholder="个人主页或微博地址"></div>
+                    <div class="12u">
+                        <button id="submit" name="submit" type="submit"><i class="icon-send"></i></button>
+                    </div>
+                </div>
+                <input type="hidden" name="comment_post_ID" value="1008" id="comment_post_ID">
+                <input type="hidden" name="agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36 dwAPI/6.0" id="comment_agent">
+                <input type="hidden" name="ip" value="61.140.160.193" id="comment_ip">
+            </form>
+        </div>
+    </section>
+    
+    <!-- Contact -->
+    
+    <section id="contact" class="content">
+        <div class="container">
+            <p>如果你想给我发送演讲或采访邀请，或者只是不想让你的留言被公开显示，可以发送邮件到</p>
+            <a href="mailto:dandyweng@dandyweng.com">dandyweng@dandyweng.com</a>
+            <p>请注意，我不会接受任何形式的工作邀请，包括摄影、设计和开发等，也不会出席任何商业性活动，与费用多少无关，望理解。</p>
+            
+            <h3>你可以在这些社交网络上关注我</h3>
+            <a href="javascript:;">@dandyweng</a>
+            
+            <div class="sns-icons row uniform 0%">
+                <div class="2u">
+                    <a href="https://www.facebook.com/dandyweng" target="_blank" rel="external nofollow"><i class="icon-facebook"></i></a>
+                </div>
+                <div class="2u">
+                    <a href="https://twitter.com/dandyweng" target="_blank" rel="external nofollow"><i class="icon-twitter"></i></a>
+                </div>
+                <div class="2u">
+                    <a href="https://instagram.com/dandyweng" target="_blank" rel="external nofollow"><i class="icon-instagram"></i></a>
+                </div>
+                <div class="2u">
+                    <a href="http://weibo.com/dandyweng" target="_blank" rel="external nofollow"><i class="icon-weibo"></i></a>
+                </div>
+                <div class="2u">
+                    <a href="javascript:;" target="_blank" rel="external nofollow"><i class="icon-wechat"></i></a>
+                </div>
+                <div class="2u">
+                    <a href="https://github.com/dandyweng" target="_blank" rel="external nofollow"><i class="icon-github"></i></a>
+                </div>
+            </div>
+            
+            <p>你也可以收藏<a href="https://blog.dandyweng.com/" target="_blank" rel="external">我的博客</a>关注我的新动态，在 <a href="https://www.camarts.cn/" target="_blank" rel="external">Camarts</a> 上浏览我的摄影作品。点击<a href="https://blog.dandyweng.com/2015/10/the-sixth-version-of-my-website/" target="_blank">这里</a>了解这个网站背后的设计和开发故事。</p>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    
+    <footer>
+        <div class="container">
+            <img src="http://v6.res.dandyweng.com/images/placeholder.png" data-original="http://v6.res.dandyweng.com/images/qr.png" width="100" alt="本页二维码" title="用微信扫描可分享给好友或朋友圈" />
+            <div id="back-to-top" data-action="scroll-to-top">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 64 64">
+                    <path fill="#cf4a5c" d="M42.057,37.732c0,0,4.139-25.58-9.78-36.207c-0.307-0.233-0.573-0.322-0.802-0.329
+                    c-0.227,0.002-0.493,0.083-0.796,0.311c-13.676,10.31-8.95,35.992-8.95,35.992c-10.18,8-7.703,9.151-1.894,23.262
+                    c1.108,2.693,3.048,2.06,3.926,0.115c0.877-1.943,2.815-6.232,2.815-6.232l11.029,0.128c0,0,2.035,4.334,2.959,6.298
+                    c0.922,1.965,2.877,2.644,3.924-0.024C49.974,47.064,52.423,45.969,42.057,37.732z M31.726,23.155
+                    c-2.546-0.03-4.633-2.118-4.664-4.665c-0.029-2.547,2.012-4.587,4.559-4.558c2.546,0.029,4.634,2.117,4.663,4.664
+                    C36.314,21.143,34.272,23.184,31.726,23.155z"/>
+                </svg>
+            </div>
+            <p>
+                已有 <span id="count" title="当前版本：515295">937,450</span> 人次访问<br>
+                <a href="http://www.miitbeian.gov.cn/" class="icp" target="_blank" rel="external nofollow">沪 ICP 备 14026031 号</a><br>
+                <a href="https://www.qiniu.com/" class="icp" target="_blank" rel="external nofollow">感谢七牛云存储赞助提供 CDN 服务</a><br>
+                Designed and developed by Dandy Weng.<br>
+                Copyright © 2011-2017 dandyweng.com. All Rights Reserved.
+            </p>
+            <p style="text-indent: -9999px;"><script src="//s9.cnzz.com/stat.php?id=3817169&amp;web_id=3817169"></script></p>
+        </div>
+    </footer>
+    
+    <script src="http://v6.res.dandyweng.com/plugins.js"></script>
+    <script src="http://v6.res.dandyweng.com/scripts.min.js"></script>
+    
+</body>
+</html> 
