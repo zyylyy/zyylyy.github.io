@@ -7,35 +7,37 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Peculiar a Personal Portfolio Flat Bootstarp responsive Website Template| HOME :: w3layouts</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Peculiar Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<link href="css/style.css" rel='stylesheet' type='text/css' />
-<script src="js/jquery-1.11.0.min.js"></script>
-<!---- start-smoth-scrolling---->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+	<title>Personal Web</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Peculiar Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+	<script type="application/x-javascript">
+	    addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
+	</script>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<!---- start-smoth-scrolling---->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+				jQuery(document).ready(function($) {
+					$(".scroll").click(function(event){		
+						event.preventDefault();
+						$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+					});
 				});
-			});
-		</script>
+	</script>
 
-<!--start-smoth-scrolling-->
-<!--animated-css-->
-		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
-		<script src="js/wow.min.js"></script>
-		<script>
-		 new WOW().init();
-		</script>
-<!--animated-css-->  
+	<!--start-smoth-scrolling-->
+	<!--animated-css-->
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+	<script src="js/wow.min.js"></script>
+	<script>
+	    new WOW().init();
+	</script>
+	<!--animated-css-->  
 </head>
 <body>
 	<!--start-banner-->
@@ -84,27 +86,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		 </script>
 		 <!-- script-for-menu -->
 		<!--Slider-Starts-Here-->
-				<script src="js/responsiveslides.min.js"></script>
-			 <script>
-			    // You can also use "$(window).load(function() {"
-			    $(function () {
-			      // Slideshow 4
-			      $("#slider4").responsiveSlides({
-			        auto: true,
-			        pager: false,
-			        nav: true,
-			        speed: 500,
-			        namespace: "callbacks",
-			        before: function () {
-			          $('.events').append("<li>before event fired.</li>");
-			        },
-			        after: function () {
-			          $('.events').append("<li>after event fired.</li>");
-			        }
-			      });
-			
-			    });
-			  </script>
+		<script src="js/responsiveslides.min.js"></script>
+		 <script>
+		    // You can also use "$(window).load(function() {"
+		    $(function () {
+		      // Slideshow 4
+		      $("#slider4").responsiveSlides({
+		        auto: true,
+		        pager: false,
+		        nav: true,
+		        speed: 500,
+		        namespace: "callbacks",
+		        before: function () {
+		          $('.events').append("<li>before event fired.</li>");
+		        },
+		        after: function () {
+		          $('.events').append("<li>after event fired.</li>");
+		        }
+		      });
+		
+		    });
+		  </script>
 			<!--End-slider-script-->
 	<!--end-banner-->	
 	<!--start-free-->	 
@@ -122,10 +124,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="portfolio-top">
 			<ul id="filters" class="clearfix">
-						<li><span class="filter active" data-filter="app card icon logo web">全部作品</span></li>
-						<li><span class="filter" data-filter="app">网站开发</span></li>
-						<li><span class="filter" data-filter="photo">Mockups</span></li>
-						<li><span class="filter" data-filter="card">Scripts</span></li>
+						<li><span class="filter active" data-filter="app card icon logo web">求职意向</span></li>
+						<li><span class="filter" data-filter="app">工作经验</span></li>
+						<li><span class="filter" data-filter="photo">项目经验</span></li>
+						<li><span class="filter" data-filter="card">教育经历</span></li>
 					</ul>
 					<div id="portfoliolist">
 					<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
@@ -224,42 +226,42 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- Portfolio Ends Here -->
 	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
 <script type="text/javascript">
-$(function () {
-	
-	var filterList = {
-	
-		init: function () {
+	$(function () {
 		
-			// MixItUp plugin
-		// http://mixitup.io
-		$('#portfoliolist').mixitup({
-			targetSelector: '.portfolio',
-			filterSelector: '.filter',
-			effects: ['fade'],
-			easing: 'snap',
-			// call the hover effect
-			onMixEnd: filterList.hoverEffect()
-		});				
-	
-	},
-	
-	hoverEffect: function () {
-	
-		// Simple parallax effect
-		$('#portfoliolist .portfolio').hover(
-			function () {
-				$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
-				$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
-			},
-			function () {
-				$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
-				$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
-			}		
-		);				
-	
-	}
+		var filterList = {
+		
+			init: function () {
+			
+				// MixItUp plugin
+			// http://mixitup.io
+			$('#portfoliolist').mixitup({
+				targetSelector: '.portfolio',
+				filterSelector: '.filter',
+				effects: ['fade'],
+				easing: 'snap',
+				// call the hover effect
+				onMixEnd: filterList.hoverEffect()
+			});				
+		
+		},
+		
+		hoverEffect: function () {
+		
+			// Simple parallax effect
+			$('#portfoliolist .portfolio').hover(
+				function () {
+					$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+					$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+				},
+				function () {
+					$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+					$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+				}		
+			);				
+		
+		}
 
-};
+	};
 
 // Run the show!
 	filterList.init();
@@ -273,22 +275,22 @@ $(function () {
 				<div class="col-md-4 blog-left">
 					<div class="blog-one wow bounceInLeft" data-wow-delay="0.4s">
 						<img src="images/blog-1.png" alt="" />
-						<h3>简 历</h3>
-						<p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000</p>
+						<h3>自我评价</h3>
+						<p>有良好的编程习惯和团队协作精神，工作积极向上。</p>
 					</div>
 				</div>
 				<div class="col-md-4 blog-left">
 					<div class="blog-one wow bounce" data-wow-delay="0.1s">
 						<img src="images/blog-4.png" alt="" />
-						<h3>博 客</h3>
+						<h3>项目链接</h3>
 						<p>Random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 </p>
 					</div>
 				</div>
 				<div class="col-md-4 blog-left active">
 					<div class="blog-one wow bounceInRight" data-wow-delay="0.4s">
 						<img src="images/blog-3.png" alt="" />
-						<h3>其 他</h3>
-						<p>Lorem Ipsum is not simply random text. Latin literature from 45 BC, making it over 2000 years old</p>
+						<h3>擅长技能</h3>
+						<p>Html/Css Html5/Css3 Javascript jQuery Ajax/json Angularjs Bootstrap Node.js Vue.js Less</p>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -302,19 +304,28 @@ $(function () {
 			<div class="contact-main">
 				<div class="col-md-6 contact-left wow bounceInLeft" data-wow-delay="0.4s">
 					<h3>联系 我</h3>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-					<p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					<p>1、熟练Html 、Div、Css等Web前端技术，精通页面架构和布局，可以独立完成web标准的各种网页制作与项目开发。</p>
+					<p>2、熟练Html5和Css3完成手机端页面，实现多屏适应等功能。</p>
+					<p>3、熟练的掌握JavaScript、es6、jQuery、Ajax、underscore等前端技术和工具。</p>
+					<p>4、熟练Vue.js、Angularjs、Handlebars相关的优秀前端框架并且灵活的运用。</p>
+					<p>5、熟练使用Bootstrap、element ui组件库。</p>
+					<p>6、能够独立完成前后端分离开发模式的前端脚本，能够接收后台返回的json数据来渲染页面、web端界面的动态效果、前后台交互、处理用户数据提交到后端。</p>
+					<p>7、能够使用node.js工具来加速前端开发，熟练使用bower管理项目框架依赖。</p>
+					<p>8、熟练使用版本控制工具svn，git。 </p>
+					<p></p>
+					<p></p>
 					<ul>
 						<li><p>电话：13514523740</p></li>
-						<li><p><a href="javascript:;">邮箱：13514523740@163.com</a></p></li>
-						<!-- <li><p>F:<a href="#"> facebook.com/techandall</a></p></li> -->
+						<li><p>微信：wsnbb33</p></li>
+						<li><p>邮箱：13514523740@163.com</p></li>
+						
 					</ul>
 				</div>
 				<div class="col-md-6 contact-left wow bounceInRight" data-wow-delay="0.4s">
 					<input type="text" value="姓名" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '姓名';}"/>
 					<input type="text" value="邮箱" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '邮箱';}"/>
 					<div class="contact-textarea">
-						<textarea value="内容" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '内容';}"></textarea>
+						<textarea value="内容" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '内容';}">内容</textarea>
 					</div>
 					<div class="contact-but">
 						<input type="submit" value="提交" />
@@ -329,12 +340,8 @@ $(function () {
 	<div class="footer">
 		<div class="conatiner">
 			<div class="footer-text wow bounce" data-wow-delay="0.1s">
-<!-- 				<p>TEMPLATE BY <a href="http://w3layouts.com/"> W3LAYOUTS</a></p>
-				<ul>
-					<li><a href="#"><span class="twt"> </span></a></li>
-					<li><a href="#"><span class="t"> </span></a></li>
-					<li><a href="#"><span class="g"> </span></a></li>
-				</ul> -->
+				<p>电话：13514523740 住址：广州市天河区</p>
+
 			</div>
 		</div>
 		 <script type="text/javascript">
